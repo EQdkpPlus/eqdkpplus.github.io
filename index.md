@@ -4,7 +4,7 @@
 ## Core
 The latest version can be downloaded here: [Core Download](/packages/core/fullpackage.zip)
 
-An installation guide is available here: [Install](https://eqdkpplus.github.io/wiki/wiki/Installation.html)
+An installation guide is available here: [Installation](https://eqdkpplus.github.io/wiki/wiki/Installation.html)
 
 The source code of the Core is available [here](https://github.com/EQdkpPlus/core).
 
