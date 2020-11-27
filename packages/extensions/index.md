@@ -1,5 +1,7 @@
 ## Extensions
 
+A guide for installation extensions is available here: [Install Extensions](https://eqdkpplus.github.io/wiki/wiki/Install_Extensions.html)
+
 ## Plugins
 
 | Name | Version | Required EQdkp Plus Version | Release Date | 
