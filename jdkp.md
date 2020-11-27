@@ -24,3 +24,6 @@ Game
 
 ### Help
 See [JDKP article at Wiki Dump](https://eqdkpplus.github.io/wiki/wiki/JDKP)
+
+### Source Code
+See (https://github.com/EQdkpPlus/tool-jdkp)
