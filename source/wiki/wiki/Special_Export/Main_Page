@@ -1,0 +1,80 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>EQdkp Plus</sitename>
+    <dbname>eqdkp2_wiki</dbname>
+    <base>https://wiki.eqdkp-plus.eu/wiki/Main_Page</base>
+    <generator>MediaWiki 1.34.4</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Projekt</namespace>
+      <namespace key="5" case="first-letter">Projekt talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="1198" case="first-letter">Translations</namespace>
+      <namespace key="1199" case="first-letter">Translations talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Main Page</title>
+    <ns>0</ns>
+    <id>1</id>
+    <revision>
+      <id>1476</id>
+      <parentid>1475</parentid>
+      <timestamp>2016-10-02T22:02:51Z</timestamp>
+      <contributor>
+        <username>Anykan</username>
+        <id>8</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="2065">&lt;languages/&gt;
+&lt;translate&gt;
+&lt;!--T:5--&gt;
+{|width="90%" cellspacing="20" align="center" class="reponsive startpage"
+| width="25%" style="text-align:center"| [[:Category:Installation| &lt;i class="fa fa-download" style="font-size: 12em; text-shadow: 2px 2px #ddd; color:#666;"&gt;&lt;/i&gt;]] &lt;br /&gt;&lt;br /&gt;&lt;center style="font-weight:bold;"&gt;[[:Category:Installation| Installation]]&lt;/center&gt;
+| width="25%" style="text-align:center"| [[:Category:Usage| &lt;i class="fa fa-wrench" style="font-size: 12em; text-shadow: 2px 2px #ddd; color:#666;"&gt;&lt;/i&gt;]] &lt;br /&gt;&lt;br /&gt;&lt;center style="font-weight:bold;"&gt;[[:Category:Usage| Usage]]&lt;/center&gt;
+| width="25%" style="text-align:center"| [[:Category:Extensions| &lt;i class="fa fa-cogs" style="font-size: 12em; text-shadow: 2px 2px #ddd; color:#666;"&gt;&lt;/i&gt;]] &lt;br /&gt;&lt;br /&gt;&lt;center style="font-weight:bold;"&gt;[[:Category:Extensions| Extensions]]&lt;/center&gt;
+| width="25%" style="text-align:center;" | [[:Category:Developer| &lt;i class="fa fa-code" style="font-size: 12em; text-shadow: 2px 2px #ddd; color:#666;"&gt;&lt;/i&gt;]] &lt;br /&gt;&lt;br /&gt;&lt;center style="font-weight:bold;"&gt;[[:Category:Development| Development]]&lt;/center&gt;
+|-
+| style="vertical-align:top;" class="noshow" | Everything around the Installation of EQdkp Plus, like FTP, File Permissions or Server Settings
+
+&lt;!--T:6--&gt;
+| style="vertical-align:top;" class="noshow" | This section contains everything about the usage of EQdkp Plus, for users as well as for administrators.
+| style="vertical-align:top;" class="noshow" | The Extension-Category contains helpful articles of Extensions, like Plugins or Portal modules.
+| style="vertical-align:top;" class="noshow" | If you are a developer and want to (or already do) write plugins, portal modules, or other features, this is your central resource when it comes to the correct usage of libraries or the secure implementation of your code.
+&lt;!-- table end --&gt;
+|}
+
+&lt;!--T:7--&gt;
+&lt;DynamicArticleList&gt; 
+ title=Recent Changes 
+ type=update
+ count=5
+&lt;/DynamicArticleList&gt;
+
+&lt;!--T:8--&gt;
+&lt;DynamicArticleList&gt; 
+ title=Newest Articles
+ type=new
+ count=5
+&lt;/DynamicArticleList&gt;
+&lt;/translate&gt;</text>
+      <sha1>rz39jstdvtgtopvrmxssegvabru5iwn</sha1>
+    </revision>
+  </page>
+</mediawiki>

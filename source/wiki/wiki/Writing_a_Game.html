@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Writing a Game - EQdkp Plus</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Writing_a_Game","wgTitle":"Writing a Game","wgCurRevisionId":1706,"wgRevisionId":1706,"wgArticleId":117,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with syntax highlighting errors","Extending"],"wgBreakFrames":!1,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Writing_a_Game","wgRelevantArticleId":117,"wgRequestId":"X3ERnHDFzWbrj9-GloVyAAAAABA","wgCSPNonce":!1,"wgIsProbablyEditable":!1,
+"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMFDisplayWikibaseDescriptions":{"search":!1,"nearby":!1,"watchlist":!1,"tagline":!1},"wgULSAcceptLanguageList":["en-us","en"],"wgULSCurrentAutonym":"English"};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","ext.uls.pt":"ready","ext.CookieWarning.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.FontAwesome","ext.uls.interface","ext.CookieWarning","skins.vector.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="../w/load.php%3Flang=en&amp;modules=ext.CookieWarning.styles|ext.pygments|ext.uls.pt|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface|mediawiki.toc.styles|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="../w/load.php%3Flang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="../w/load.php%3Flang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector.css"/>
+<meta name="generator" content="MediaWiki 1.34.4"/>
+<link rel="shortcut icon" href="../favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://wiki.eqdkp-plus.eu/w/opensearch_desc.php" title="EQdkp Plus (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.eqdkp-plus.eu/w/api.php?action=rsd"/>
+<link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="EQdkp Plus Atom feed" href="https://wiki.eqdkp-plus.eu/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Writing_a_Game rootpage-Writing_a_Game skin-vector action-view"><div class="mw-cookiewarning-container banner-container"><div class="mw-cookiewarning-text"><span>Cookies help us deliver our services. By using our services, you agree to our use of cookies.</span> <a href="https://eqdkp-plus.eu/en/about/privacypolicy.html">More information</a><form method="POST"><input name="disablecookiewarning" class="mw-cookiewarning-dismiss" type="submit" value="OK"/></form></div></div>
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">Writing a Game</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From EQdkp Plus</div>
+		<div id="contentSub"></div>
+		
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="Writing_a_Game.html#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="Writing_a_Game.html#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><br />
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Writing_a_Game.html#Game_Builder"><span class="tocnumber">1</span> <span class="toctext">Game Builder</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Writing_a_Game.html#API_Level"><span class="tocnumber">2</span> <span class="toctext">API Level</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="Writing_a_Game.html#Example"><span class="tocnumber">2.1</span> <span class="toctext">Example</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="Writing_a_Game.html#API_Levels"><span class="tocnumber">2.2</span> <span class="toctext">API Levels</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="Writing_a_Game.html#Possibilies"><span class="tocnumber">3</span> <span class="toctext">Possibilies</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="Writing_a_Game.html#Admin_Settings"><span class="tocnumber">3.1</span> <span class="toctext">Admin Settings</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="Writing_a_Game.html#Profile_fields"><span class="tocnumber">3.2</span> <span class="toctext">Profile fields</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="Writing_a_Game.html#Importers"><span class="tocnumber">3.3</span> <span class="toctext">Importers</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="Writing_a_Game.html#Calendar"><span class="tocnumber">3.4</span> <span class="toctext">Calendar</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="Writing_a_Game.html#Char_Infotooltip"><span class="tocnumber">3.4.1</span> <span class="toctext">Char Infotooltip</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="Writing_a_Game.html#Chartooltip"><span class="tocnumber">3.5</span> <span class="toctext">Chartooltip</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="Writing_a_Game.html#Roster_enhancement"><span class="tocnumber">3.6</span> <span class="toctext">Roster enhancement</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="Writing_a_Game.html#Charview_enhancement"><span class="tocnumber">3.7</span> <span class="toctext">Charview enhancement</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="Writing_a_Game.html#Itemtooltips"><span class="tocnumber">3.8</span> <span class="toctext">Itemtooltips</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="Writing_a_Game.html#Raidexport"><span class="tocnumber">3.9</span> <span class="toctext">Raidexport</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="Writing_a_Game.html#Add_Ranks"><span class="tocnumber">3.10</span> <span class="toctext">Add Ranks</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="Writing_a_Game.html#Add_MultiDKP-Pools"><span class="tocnumber">3.11</span> <span class="toctext">Add MultiDKP-Pools</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="Writing_a_Game.html#Add_Item-Pools"><span class="tocnumber">3.12</span> <span class="toctext">Add Item-Pools</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="Writing_a_Game.html#Add_Events"><span class="tocnumber">3.13</span> <span class="toctext">Add Events</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="Writing_a_Game.html#Add_Raidgroup"><span class="tocnumber">3.14</span> <span class="toctext">Add Raidgroup</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="Writing_a_Game.html#Add_Links"><span class="tocnumber">3.15</span> <span class="toctext">Add Links</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="Writing_a_Game.html#Cronjob"><span class="tocnumber">3.16</span> <span class="toctext">Cronjob</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="Writing_a_Game.html#Languages"><span class="tocnumber">4</span> <span class="toctext">Languages</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="Writing_a_Game.html#Updates_.28Since_2.3.29"><span class="tocnumber">5</span> <span class="toctext">Updates (Since 2.3)</span></a></li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Game_Builder">Game Builder</span></h1>
+<p>Try our <a rel="nofollow" class="external text" href="http://eqdkp-plus.eu/repository/gamebuilder">Gamebuilder</a> to create a basic Game with Classes, Races, Icons etc. But notice that the Gamebuilder only covers the basic functionality of games.
+You can enhance this created game.
+</p>
+<h1><span class="mw-headline" id="API_Level">API Level</span></h1>
+<p>With EQdkp Plus 2.0, we introduced an API Level for the Game Class. This ensures, that the old Games cannot produce fatal errors if they use removed methods of the Game Class.
+If we want to remove or rename Game Class Methods, we set them as deprecated (can be viewn if Debug-Mode is enabled). After two Increasements of the API Level, we will remove the method. That means that Games will not work anymore and loaded by the EQDkp Plus if their API-Level is Recent API level minus three.
+</p><p>That means that an module author has to update it's game regularly to make sure his game is working with the latest API.
+</p>
+<h2><span class="mw-headline" id="Example">Example</span></h2>
+<p>We want to remove a method in API Level 19. We set this method as deprecated and increase the API Level to 20. With API Level 22, this method will be removed. All games with an API Level lower 20 will not be loaded anymore and have to be adjusted to the new API Level.
+</p>
+<h2><span class="mw-headline" id="API_Levels">API Levels</span></h2>
+<table class="wikitable">
+
+<tbody><tr class="hintergrundfarbe5">
+<th>API-Level</th>
+<th>EQdkp Plus Version
+</th></tr>
+<tr>
+<td>20</td>
+<td>2.0.0
+</td></tr></tbody></table>
+<h1><span class="mw-headline" id="Possibilies">Possibilies</span></h1>
+<p>With our game class, many things are possible. The Game that uses almost everything possible is World of Warcraft, therefore you should take a look at this Game.
+The following descriptions might not be complete, but should give you a hint how to do or what to look for.
+</p>
+<h2><span class="mw-headline" id="Admin_Settings">Admin Settings</span></h2>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>public function admin_settings() {
+	$settingsdata_admin = array(
+		'uc_server_loc'	=&gt; array(
+			'lang'		=&gt; 'uc_server_loc',
+			'type' 		=&gt; 'dropdown',
+			'options'	=&gt; array('eu' =&gt; 'EU', 'us' =&gt; 'US', 'tw' =&gt; 'TW', 'kr' =&gt; 'KR', 'cn' =&gt; 'CN'),
+		),
+	);
+	return $settingsdata_admin;
+}</pre></div>
+<h2><span class="mw-headline" id="Profile_fields">Profile fields</span></h2>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>public function profilefields(){
+	// Category 'character' is a fixed one! All others are created dynamically!
+	$xml_fields = array(
+		'guild'	=&gt; array(
+			'type'			=&gt; 'text',
+			'category'		=&gt; 'character',
+			'lang'			=&gt; 'uc_guild',
+			'size'			=&gt; 40,
+			'undeletable'	=&gt; true,
+			'sort'			=&gt; 1
+		),
+		'servername'	=&gt; array(
+			'category'		=&gt; 'character',
+			'lang'			=&gt; 'uc_servername',
+			'type'			=&gt; 'text',
+			'size'			=&gt; '21',
+			'edecode'		=&gt; true,
+			'autocomplete'	=&gt; $this-&gt;realmlist[$this-&gt;lang],
+			'undeletable'	=&gt; true,
+			'sort'			=&gt; 2
+		),
+	);
+	return $xml_fields;
+}</pre></div>
+<p>For Types take a look at <a href="./Special:Random.html#Settings" title="Writing a Portal Module">this page</a>.
+</p>
+<h2><span class="mw-headline" id="Importers">Importers</span></h2>
+<p>Add this to the constructor of the Game Class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$this-&gt;importers = array(
+	'char_import'		=&gt; 'charimporter.php',						// filename of the character import
+	'char_update'		=&gt; 'charimporter.php',						// filename of the character update, member_id (POST) is passed
+	'char_mupdate'		=&gt; 'charimporter.php'.$this-&gt;SID.'&amp;massupdate=true',		// filename of the "update all characters" aka mass update
+	'guild_import'		=&gt; 'guildimporter.php',						// filename of the guild import
+	'import_reseturl'	=&gt; 'charimporter.php'.$this-&gt;SID.'&amp;resetcache=true',		// filename of the reset cache
+	'guild_imp_rsn'		=&gt; true,							// Guild import &amp; Mass update requires server name
+	'import_data_cache'	=&gt; true,							// Is the data cached and requires a reset call?
+);</pre></div>
+<p>Of course you have to write this files, but take a look at the Existing ones of WoW, because they need access to an API.
+</p>
+<h2><span class="mw-headline" id="Calendar">Calendar</span></h2>
+<p><b>Need: EQDKP 2.3.x</b>
+Option to Hide Empty Roles in the Raids/Events
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>public $game_settings		= array(
+	'calendar_hide_emptyroles'	=&gt; true,    /*Calendar Hide Roles if zero*/
+);</pre></div>
+<h3><span class="mw-headline" id="Char_Infotooltip">Char Infotooltip</span></h3>
+<p>Do get the additional Infos in the Calendar Events, which u set in the Char profile fields. In my Example, i have an additional field for PVP Players (Yes/No) and for a reduced Raid cooldown (18h/no). 
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>	public function calendar_membertooltip($memberid){
+			return array(
+				$this-&gt;game-&gt;glang('uc_18h_Raid_cooldown').': '.$this-&gt;pdh-&gt;geth('member', 'profile_field', array($memberid, '18h_Raid_cooldown', true)),
+				$this-&gt;game-&gt;glang('uc_pvp').': '.$this-&gt;pdh-&gt;geth('member', 'profile_field', array($memberid, 'pvp', true)),
+
+	);</pre></div>
+<h2><span class="mw-headline" id="Chartooltip">Chartooltip</span></h2>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>public function chartooltip($intCharID){
+	$template = $this-&gt;root_path.'games/'.$this-&gt;this_game.'/chartooltip/chartooltip.tpl';
+	$content = file_get_contents($template);
+	$charicon = $this-&gt;pdh-&gt;get('wow', 'charicon', array($intCharID));
+	if ($charicon == '') {
+		$charicon = $this-&gt;server_path.'images/global/avatar-default.svg';
+	}
+	$charhtml = '&lt;b&gt;'.$this-&gt;pdh-&gt;get('member', 'html_name', array($intCharID)).'&lt;/b&gt;&lt;br /&gt;';
+	$guild = $this-&gt;pdh-&gt;get('member', 'profile_field', array($intCharID, 'guild'));
+	if (strlen($guild)) $charhtml .= '&lt;br /&gt;&amp;laquo;'.$guild.'&amp;raquo;';
+	
+	$charhtml .= '&lt;br /&gt;'.$this-&gt;pdh-&gt;get('member', 'html_racename', array($intCharID));
+	$charhtml .= ' '.$this-&gt;pdh-&gt;get('member', 'html_classname', array($intCharID));
+	$charhtml .= '&lt;br /&gt;'.$this-&gt;user-&gt;lang('level').' '.$this-&gt;pdh-&gt;get('member', 'level', array($intCharID));
+	
+	
+	$content = str_replace('{CHAR_ICON}', $charicon, $content);
+	$content = str_replace('{CHAR_HTML}', $charhtml, $content);
+	
+	return $content;
+}</pre></div>
+<h2><span class="mw-headline" id="Roster_enhancement">Roster enhancement</span></h2>
+<p>Add subfolder "roster".
+Add file "roster_additions.php", where your code is defined. You have accesss in this file to the Data created by the normal roster page-object.
+Add "roster_view.html" with your Template Code in this subfolder.
+</p>
+<h2><span class="mw-headline" id="Charview_enhancement">Charview enhancement</span></h2>
+<p>Add subfolder "profile". Add profile_additions.php with your PHP Code, add profile_view.html with the Template Code.
+</p>
+<h2><span class="mw-headline" id="Itemtooltips">Itemtooltips</span></h2>
+<p>Put your parser into subfolder "infotooltip".
+Example parser for Final Fantasy XIV.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>&lt;?php
+ /*
+ * Project:		EQdkp-Plus
+ * License:		Creative Commons - Attribution-Noncommercial-Share Alike 3.0 Unported
+ * Link:		http://creativecommons.org/licenses/by-nc-sa/3.0/
+ * -----------------------------------------------------------------------
+ * Began:		2010
+ * Date:		$Date: 2014-03-20 14:44:33 +0100 (Do, 20 Mrz 2014) $
+ * -----------------------------------------------------------------------
+ * @author		$Author: wallenium $
+ * @copyright	2006-2011 EQdkp-Plus Developer Team
+ * @link		http://eqdkp-plus.com
+ * @package		eqdkp-plus
+ * @version		$Rev: 14134 $
+ * 
+ * $Id: zam.class.php 14134 2014-03-20 13:44:33Z wallenium $
+ */
+
+if(!class_exists('ffxiv_zam')) {
+	class ffxiv_zam extends itt_parser {
+		public static $shortcuts = array('pdl', 'puf' =&gt; 'urlfetcher', 'pfh' =&gt; array('file_handler', array('infotooltips')));
+
+		public $supported_games = array('ffxiv');
+		public $av_langs = array();
+
+		public $settings = array();
+
+		public $itemlist = array();
+		public $recipelist = array();
+
+		private $searched_langs = array();
+
+		public function __construct($init=false, $config=false, $root_path=false, $cache=false, $puf=false, $pdl=false){
+			parent::__construct($init, $config, $root_path, $cache, $puf, $pdl);
+			$g_settings = array(
+				'ffxiv' =&gt; array('icon_loc' =&gt; 'http:', 'icon_ext' =&gt; '', 'default_icon' =&gt; 'unknown'),
+			);
+			$this-&gt;settings = array(
+				'itt_icon_loc' =&gt; array(	'name' =&gt; 'itt_icon_loc',
+											'language' =&gt; 'pk_itt_icon_loc',
+											'fieldtype' =&gt; 'text',
+											'size' =&gt; false,
+											'options' =&gt; false,
+											'default' =&gt; ((isset($g_settings[$this-&gt;config['game']]['icon_loc'])) ? $g_settings[$this-&gt;config['game']]['icon_loc'] : ''),
+				),
+				'itt_icon_ext' =&gt; array(	'name' =&gt; 'itt_icon_ext',
+											'language' =&gt; 'pk_itt_icon_ext',
+											'fieldtype' =&gt; 'text',
+											'size' =&gt; false,
+											'options' =&gt; false,
+											'default' =&gt; ((isset($g_settings[$this-&gt;config['game']]['icon_ext'])) ? $g_settings[$this-&gt;config['game']]['icon_ext'] : ''),
+				),
+				'itt_default_icon' =&gt; array('name' =&gt; 'itt_default_icon',
+											'language' =&gt; 'pk_itt_default_icon',
+											'fieldtype' =&gt; 'text',
+											'size' =&gt; false,
+											'options' =&gt; false,
+											'default' =&gt; ((isset($g_settings[$this-&gt;config['game']]['default_icon'])) ? $g_settings[$this-&gt;config['game']]['default_icon'] : ''),
+				),
+			);
+			$g_lang = array(
+				'ffxiv' =&gt; array('en' =&gt; 'en_US', 'de' =&gt; 'de_DE', 'fr' =&gt; 'fr_FR'),
+			);
+			$this-&gt;av_langs = ((isset($g_lang[$this-&gt;config['game']])) ? $g_lang[$this-&gt;config['game']] : '');
+		}
+
+		public function __destruct(){
+			unset($this-&gt;itemlist);
+			unset($this-&gt;recipelist);
+			unset($this-&gt;searched_langs);
+			parent::__destruct();
+		}
+		
+		private function getLangID($strLang){
+			$arrLang = array(
+				'en' =&gt; 1,
+				'de' =&gt; 2,
+				'fr' =&gt; 3,
+			);
+			return $arrLang[$strLang];
+		}
+
+
+		private function getItemIDfromUrl($itemname, $lang, $searchagain=0){
+			$searchagain++;
+			$encoded_name = urlencode($itemname);
+			if (!$lang) $lang = "en";
+			$link = "http://xivdb.com/modules/search/search.php?query=".$encoded_name."&amp;page=1&amp;pagearray=%7B%7D&amp;language=".$this-&gt;getLangID($lang)."&amp;filters=null&amp;showview=0";			
+			$data = $this-&gt;puf-&gt;fetch($link);
+			$item_id = false;
+			
+
+			$this-&gt;searched_langs[] = $lang;
+			if (preg_match_all('#href\=\"\?item\/(.*?)\/(.*?)\"&gt;(.*?)&lt;\/a&gt;#', $data, $matches))
+			{				
+				foreach ($matches[0] as $key =&gt; $match)
+				{
+					// Extract the item's ID from the match.
+					$item_id = (int)$matches[1][$key];
+					$found_name = strip_tags($matches[3][$key]);
+					
+					if(strcasecmp($itemname, $found_name) == 0) {
+						return array($item_id, 'items');
+					}
+				}
+			}
+			
+			//search in other languages
+			if(!$item_id AND $searchagain &lt; count($this-&gt;av_langs)) {
+				$this-&gt;pdl-&gt;log('infotooltip', 'No Items found.');
+				if(count($this-&gt;config['lang_prio']) &gt;= $searchagain) {
+					$this-&gt;pdl-&gt;log('infotooltip', 'Search again in other language.');
+					$this-&gt;searched_langs[] = $lang;
+					foreach($this-&gt;config['lang_prio'] as $slang) {
+						if(!in_array($slang, $this-&gt;searched_langs)) {
+							return $this-&gt;getItemIDfromUrl($itemname, $slang, $searchagain);
+						}
+					}
+				}
+			}
+			
+			return $item_id;
+		}
+
+		protected function searchItemID($itemname, $lang){
+			return $this-&gt;getItemIDfromUrl($itemname, $lang);
+		}
+
+		protected function getItemData($item_id, $lang, $itemname='', $type='items'){
+			$item = array('id' =&gt; $item_id);
+			if(!$item_id) return null;
+			
+			$url = "http://xivdb.com/modules/fpop/fpop.php?callback=&amp;lang=".$this-&gt;getLangID($lang)."&amp;version=1.6&amp;host=xivdb.com&amp;type=item&amp;id=".$item_id."&amp;location=http%3A%2F%2Fxivdb.com%2F%3Ftooltip&amp;convertQuotes=true&amp;frameShadow=false&amp;compact=false&amp;statsOnly=false&amp;replaceName=true&amp;colorName=true&amp;showIcon=true&amp;_=1387608577170";
+			$item['link'] = $url;
+			$itemdata = $this-&gt;puf-&gt;fetch($item['link']);
+			//$itemdata = substr(trim($itemdata), 1);
+			//$itemdata = substr($itemdata, 0, -1);			
+			$arrData = json_decode($itemdata);
+			
+			
+			$strItemName = trim(strip_tags($arrData-&gt;name));
+
+			if ($strItemName != ""){
+				$item['icon'] = $arrData-&gt;icon;
+				$item['color'] = $arrData-&gt;color;
+
+				$template_html = trim(file_get_contents($this-&gt;root_path.'games/ffxiv/infotooltip/templates/ffxiv_popup.tpl'));
+				$template_html = str_replace('{ITEM_HTML}', $arrData-&gt;html, $template_html);
+				$item['html'] = $template_html;
+				$item['lang'] = $lang;
+				$item['name'] = $strItemName;
+				
+				
+			} else {
+				$item['baditem'] = true;
+				
+			}
+
+			return $item;
+		}
+	}
+}
+?&gt;</pre></div>
+<h2><span class="mw-headline" id="Raidexport">Raidexport</span></h2>
+<p>Put into subfolder "raidexport" a file with name GAME_NAME.class.php, e.g. "wow_autoinvite.class.php"
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$rpexport_plugin['wow_autoinvite.class.php'] = array(
+	'name'			=&gt; 'WoW Auto Invite',
+	'function'		=&gt; 'wowautoinviteexport',
+	'contact'		=&gt; 'webmaster@wallenium.de',
+	'version'		=&gt; '2.0.0');
+
+function wowautoinviteexport($raid_id){
+  //Do Export Stuff
+}</pre></div>
+<h2><span class="mw-headline" id="Add_Ranks">Add Ranks</span></h2>
+<p>Add to install() method of Game Class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$this-&gt;game-&gt;addRank($intID, $strName, $blnDefault=false, $strIcon='');
+Example:
+$this-&gt;game-&gt;addRank(0, "Guildmaster");</pre></div>
+<h2><span class="mw-headline" id="Add_MultiDKP-Pools">Add MultiDKP-Pools</span></h2>
+<p>Add to install() method of Game Class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$this-&gt;game-&gt;addMultiDKPPool($strName, $strDescription, $arrEventIDs, $arrItempoolIDs);
+Example:
+$this-&gt;game-&gt;addMultiDKPPool("Default", "Default MultiDKPPool", $arrEventIDs, array($intItempoolDefault));</pre></div>
+<h2><span class="mw-headline" id="Add_Item-Pools">Add Item-Pools</span></h2>
+<p>Add to install() method of Game Class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$this-&gt;game-&gt;addItempool($strName, $strDescription);
+Example:
+$this-&gt;game-&gt;addItempool("Classic", "Classic Itempool");</pre></div>
+<h2><span class="mw-headline" id="Add_Events">Add Events</span></h2>
+<p>Add to install() method of Game Class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$this-&gt;game-&gt;addEvent($strName, $intValue, $strIcon); //returns EventID
+Example:
+$this-&gt;game-&gt;addEvent($this-&gt;glang('mop_mogushan_10'), 0, "mv.png");</pre></div>
+<h2><span class="mw-headline" id="Add_Raidgroup">Add Raidgroup</span></h2>
+<p>Add to install() method of Game Class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$this-&gt;game-&gt;addRaidgroup($name, $color, $desc='', $standard=0, $sortid=0, $system=0);
+Example:
+$this-&gt;game-&gt;addRaidgroup("My New Raidgroup","#000000", "My Description");</pre></div>
+<h2><span class="mw-headline" id="Add_Links">Add Links</span></h2>
+<p>Add to install() method of Game Class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$this-&gt;game-&gt;addLink('$strName', '$strURL');
+Example:
+$this-&gt;game-&gt;addLink('Google', 'http://www.google.de/');</pre></div>
+<h2><span class="mw-headline" id="Cronjob">Cronjob</span></h2>
+<p>Options for the Cronjob, to be filled out by Admin; defined in your game class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>public function cronjobOptions(){
+	$arrOptions = array(
+		'sync_ranks'	=&gt; array(
+				'lang'	=&gt; 'Sync Ranks',
+				'name'	=&gt; 'sync_ranks',
+				'type'	=&gt; 'radio',
+		),
+	);
+	return $arrOptions;
+}</pre></div>
+<p>The real cronjob, defined in your game class
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>public function cronjob($arrParams = array()){
+	$blnSyncRanks = ((int)$arrParams['sync_ranks'] == 1) ? true : false;
+
+	//Do a lot of other stuff
+}</pre></div>
+<h1><span class="mw-headline" id="Languages">Languages</span></h1>
+<p>The language files are placed at the game-subfolder <i>languages</i>. The files are named after their language, e.g. <i>german.php</i> or <i>englisch.php</i>.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>&lt;?php
+if ( !defined('EQDKP_INC') ){
+	header('HTTP/1.0 404 Not Found');exit;
+}
+$german_array = array(
+	'factions' =&gt; array(
+		'alliance'	=&gt; 'Allianz',
+		'horde'		=&gt; 'Horde'
+	),
+	'races' =&gt; array(
+		'Unbekannt',
+		'Gnom',
+		'Mensch',
+		'Zwerg',
+		'Nachtelf',
+		'Troll',
+		'Untoter',
+		'Ork',
+		'Taure',
+		'Draenei',
+		'Blutelf',
+		'Worg',
+		'Goblin',
+		'Pandaren'
+	),
+);
+
+//Since 2.3, you can add main language to overwrite EQdkp Plus Language Vars
+$lang_array = array(
+     'menu_members' =&gt; 'Tanks'	// for core-languages find in /install-dir/language/..
+     'pdh_lang_member_name_decorated'	=&gt; 'Tankname',  // for module-languages find in /install-dir/core/data_handler/includes/modules/.. ($module_lang)
+     'pdh_preset_lang_mname' =&gt; 'Tank-Name', // for preset-languages find in /install-dir/core/data_handler/includes/modules/.. ($preset_lang)
+);
+?&gt;</pre></div>
+<h1><span id="Updates_(Since_2.3)"></span><span class="mw-headline" id="Updates_.28Since_2.3.29">Updates (Since 2.3)</span></h1>
+<p>This section is for EQdkp Plus 2.3.
+</p><p>Games can now include own updates. Create the subfolder <b>includes/updates/</b> in your game folder. In this folder, you can create update files using the following scheme:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>update_&lt;GAMENAME&gt;_&lt;VERSION_OF_NEW_VERSION&gt;.class.php
+//Example:
+update_albiononline_220.class.php</pre></div>
+<p>The update class is the same as it is for extensions. Here is an example, which brings an update class that will get executed.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>&lt;?php
+/*	Project:	EQdkp-Plus
+ *	Package:	GuildRequest Plugin
+ *	Link:		http://eqdkp-plus.eu
+ *
+ *	Copyright (C) 2006-2016 EQdkp-Plus Developer Team
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *	it under the terms of the GNU Affero General Public License as published
+ *	by the Free Software Foundation, either version 3 of the License, or
+ *	(at your option) any later version.
+ *
+ *	This program is distributed in the hope that it will be useful,
+ *	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *	GNU Affero General Public License for more details.
+ *
+ *	You should have received a copy of the GNU Affero General Public License
+ *	along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ */
+
+if (!defined('EQDKP_INC')){
+	header('HTTP/1.0 404 Not Found');exit;
+}
+
+include_once(registry::get_const('root_path').'maintenance/includes/sql_update_task.class.php');
+
+if (!class_exists('update_albiononline_220')){
+	class update_albiononline_220 extends sql_update_task {
+
+		public $author		= 'GodMod';
+		public $version		= '2.2.0';    // new version
+		public $name		= 'Albiononline 2.2.0 Update';
+		public $type		= 'plugin_update';
+		public $game_path	= 'albiononline'; // important!
+
+		/**
+		* Constructor
+		*/
+		public function __construct(){
+			parent::__construct();
+
+			// init language
+			$this-&gt;langs = array(
+				'english' =&gt; array(
+					'update_albiononline_220'	=&gt; 'Albiononline 2.2.0 Update Package',
+					'update_function' 			=&gt; 'Update Settings',
+				),
+				'german' =&gt; array(
+					'update_albiononline_220'	=&gt; 'Albiononline 2.2.0 Update Paket',
+					'update_function'			=&gt; 'Aktualisiere Einstellungen',
+				),
+			);
+
+		}
+		
+		public function update_function(){
+			echo "Hello World";
+			return true;
+		}
+	}
+}
+?&gt;</pre></div>
+<!-- 
+NewPP limit report
+Cached time: 20200927141803
+Cache expiry: 86400
+Dynamic content: false
+Complications: []
+CPU time usage: 0.115 seconds
+Real time usage: 0.384 seconds
+Preprocessor visited node count: 164/1000000
+Preprocessor generated node count: 0/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 15232/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key eqdkp2_wiki:pcache:idhash:117-0!canonical and timestamp 20200927141803 and revision id 1706
+ -->
+</div></div>
+		
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://wiki.eqdkp-plus.eu/w/index.php?title=Writing_a_Game&amp;oldid=1706">https://wiki.eqdkp-plus.eu/w/index.php?title=Writing_a_Game&amp;oldid=1706</a>"</div>
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="./Special:Categories.html" title="Special:Categories">Categories</a>: <ul><li><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Category:Pages_with_syntax_highlighting_errors&amp;action=edit&amp;redlink=1" class="new" title="Category:Pages with syntax highlighting errors (page does not exist)">Pages with syntax highlighting errors</a></li><li><a href="./Category:Extending.html" title="Category:Extending">Extending</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+
+
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-uls" class="active"><a href="Writing_a_Game.html#" class="uls-trigger">English</a></li><li id="pt-login"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Special:UserLogin&amp;returnto=Writing+a+Game" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="Writing_a_Game.html" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Talk:Writing_a_Game&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="Writing_a_Game.html">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Writing_a_Game&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Writing_a_Game&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="https://wiki.eqdkp-plus.eu/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search EQdkp Plus" title="Search EQdkp Plus [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="Main_Page.html" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-EQdkp_Plus" aria-labelledby="p-EQdkp_Plus-label">
+			<h3 id="p-EQdkp_Plus-label">EQdkp Plus</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Home"><a href="https://eqdkp-plus.eu" rel="nofollow">Home</a></li><li id="n-Forum"><a href="https://forum.eqdkp-plus.eu/" rel="nofollow">Forum</a></li><li id="n-Bugtracker"><a href="https://forum.eqdkp-plus.eu/bugtracker" rel="nofollow">Bugtracker</a></li><li id="n-Downloads"><a href="https://repo.eqdkp-plus.eu/" rel="nofollow">Downloads</a></li><li id="n-Project-Search"><a href="https://forum.eqdkp-plus.eu/wcf/project-search" rel="nofollow">Project-Search</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Wiki" aria-labelledby="p-Wiki-label">
+			<h3 id="p-Wiki-label">Wiki</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Main"><a href="Main_Page.html">Main</a></li><li id="n-Installation"><a href="./Category:Installation.html">Installation</a></li><li id="n-Usage"><a href="./Category:Usage.html">Usage</a></li><li id="n-Extensions"><a href="./Category:Extensions.html">Extensions</a></li><li id="n-Development"><a href="./Category:Development.html">Development</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Misc" aria-labelledby="p-Misc-label">
+			<h3 id="p-Misc-label">Misc</h3>
+			<div class="body">
+								<ul>
+					<li id="n-recentchanges"><a href="https://wiki.eqdkp-plus.eu/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="./Special:WhatLinksHere/Writing_a_Game.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://wiki.eqdkp-plus.eu/wiki/Special:RecentChangesLinked/Writing_a_Game" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Writing_a_Game&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Writing_a_Game&amp;oldid=1706" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Writing_a_Game&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 29 August 2017, at 16:39.</li>
+								<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons „Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen“</a> unless otherwise noted.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="./Projekt:Privacy_policy.html" title="Projekt:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="https://wiki.eqdkp-plus.eu/wiki/Projekt:About" title="Projekt:About">About EQdkp Plus</a></li>
+								<li id="footer-places-disclaimer"><a href="https://wiki.eqdkp-plus.eu/wiki/Projekt:General_disclaimer" title="Projekt:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-mobileview"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Writing_a_Game&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="../w/resources/assets/licenses/cc-by-nc-sa.png" alt="Creative Commons „Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen“" width="88" height="31"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="../w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="../w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, ../w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.115","walltime":"0.384","ppvisitednodes":{"value":164,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":15232,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20200927141803","ttl":86400,"transientcontent":false}}});});</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://eqdkp-plus.eu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 6]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://eqdkp-plus.eu/piwik/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":106});});</script>
+</body>
+<!-- Cached 20200927222636 -->
+</html>

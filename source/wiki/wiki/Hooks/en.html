@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Hooks/en - EQdkp Plus</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Hooks/en","wgTitle":"Hooks/en","wgCurRevisionId":2365,"wgRevisionId":2365,"wgArticleId":110,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with syntax highlighting errors","English","Extending"],"wgBreakFrames":!1,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Hooks/en","wgRelevantArticleId":110,"wgRequestId":"X3FA56imiZVKgcAAWWhgCwAAAQk","wgCSPNonce":!1,"wgIsProbablyEditable":!1,
+"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMFDisplayWikibaseDescriptions":{"search":!1,"nearby":!1,"watchlist":!1,"tagline":!1},"wgULSAcceptLanguageList":["en"],"wgULSCurrentAutonym":"English"};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","ext.uls.pt":"ready","ext.CookieWarning.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.FontAwesome","ext.uls.interface","ext.CookieWarning","skins.vector.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="../../w/load.php%3Flang=en&amp;modules=ext.CookieWarning.styles|ext.pygments|ext.uls.pt|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface|mediawiki.toc.styles|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="../../w/load.php%3Flang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="../../w/load.php%3Flang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector.css"/>
+<meta name="generator" content="MediaWiki 1.34.4"/>
+<link rel="shortcut icon" href="../../favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://wiki.eqdkp-plus.eu/w/opensearch_desc.php" title="EQdkp Plus (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.eqdkp-plus.eu/w/api.php?action=rsd"/>
+<link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="EQdkp Plus Atom feed" href="https://wiki.eqdkp-plus.eu/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Hooks_en rootpage-Hooks skin-vector action-view"><div class="mw-cookiewarning-container banner-container"><div class="mw-cookiewarning-text"><span>Cookies help us deliver our services. By using our services, you agree to our use of cookies.</span> <a href="https://eqdkp-plus.eu/en/about/privacypolicy.html">More information</a><form method="POST"><input name="disablecookiewarning" class="mw-cookiewarning-dismiss" type="submit" value="OK"/></form></div></div>
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">Hooks/en</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From EQdkp Plus</div>
+		<div id="contentSub"><span class="subpages">&lt; <a href="../Hooks.html" title="Hooks">Hooks</a></span></div>
+		
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="en.html#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="en.html#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><br />
+</p><p>Hooks can be used to extend EQdkp Plus. They are executed in defined points of EQdkp Plus.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="en.html#Existing_Hooks"><span class="tocnumber">1</span> <span class="toctext">Existing Hooks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="en.html#Since_EQdkp_Plus_2.0"><span class="tocnumber">1.1</span> <span class="toctext">Since EQdkp Plus 2.0</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="en.html#Since_EQdkp_Plus_2.3"><span class="tocnumber">1.2</span> <span class="toctext">Since EQdkp Plus 2.3</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="en.html#Create_new_hook"><span class="tocnumber">2</span> <span class="toctext">Create new hook</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="en.html#Filename"><span class="tocnumber">2.1</span> <span class="toctext">Filename</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="en.html#Classname"><span class="tocnumber">2.2</span> <span class="toctext">Classname</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="en.html#Methodname"><span class="tocnumber">2.3</span> <span class="toctext">Methodname</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="en.html#Folder"><span class="tocnumber">2.4</span> <span class="toctext">Folder</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="en.html#Example-Hook"><span class="tocnumber">3</span> <span class="toctext">Example-Hook</span></a></li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Existing_Hooks">Existing Hooks</span></h1>
+<table class="wikitable">
+
+<tbody><tr class="hintergrundfarbe5">
+<th>Hook</th>
+<th>Parameter</th>
+<th>Description
+</th></tr>
+<tr>
+<td><b>portal</b></td>
+<td><i>none</i></td>
+<td>Will be executed if portal is displayed. Good for extending the header or other areas.
+</td></tr>
+<tr>
+<td><b>search</b></td>
+<td><i>none</i></td>
+<td>Extends the search enginge, requires a PDH modules (For example, take a look at the shoutbox plugin)
+</td></tr>
+<tr>
+<td><b>wrapper</b></td>
+<td>id: String, link: String</td>
+<td>Extends the Wrapper. For example, take a look at the latestposts module.
+</td></tr>
+<tr>
+<td><b>bbcodes</b></td>
+<td>text: String, state: String</td>
+<td>Adds own BBCodes.
+</td></tr></tbody></table>
+<h2><span class="mw-headline" id="Since_EQdkp_Plus_2.0">Since EQdkp Plus 2.0</span></h2>
+<p>Since EQdkp Plus 2.0, additional hooks are available.
+</p>
+<table class="wikitable">
+
+<tbody><tr class="hintergrundfarbe5">
+<th>Hook</th>
+<th>Parameters</th>
+<th>Recursive</th>
+<th>Description
+</th></tr>
+<tr>
+<td><b>menu</b></td>
+<td>Multidimension-Array with menu entries</td>
+<td>No</td>
+<td>Hook contains all menu entries as multidimensional array. Each dimension is one menu level.
+</td></tr>
+<tr>
+<td><b>menu_onelevel</b></td>
+<td>Array with menu entries</td>
+<td>Yes</td>
+<td>Hook gets all menu entries as single array, without levels.
+</td></tr>
+<tr>
+<td><b>game_chartooltip</b></td>
+<td>tooltip: string; char_id: integer;</td>
+<td>Yes</td>
+<td><b>tooltip</b> containes parsed character tooltip
+</td></tr>
+<tr>
+<td><b>article_parse</b></td>
+<td>content: string; view: string, article_id: integer; specific_id: string</td>
+<td>Yes</td>
+<td><b>content</b> contains parsed article
+</td></tr>
+<tr>
+<td><b>tinymce_bbcode_setup</b></td>
+<td>js: string; env: object;</td>
+<td>Yes</td>
+<td>Setup method of BBCode-Editor, e.g. for adding own buttons
+</td></tr>
+<tr>
+<td><b>tinymce_normal_setup</b></td>
+<td>js: string; env: object;</td>
+<td>Yes</td>
+<td>Setup method of normal WYSIWYG Editor, e.g. for adding own buttons
+</td></tr>
+<tr>
+<td><b>tinymce_inline_simple_setup</b></td>
+<td>js: string; selector: string; env: object;</td>
+<td>Yes</td>
+<td>Setup method of simple inline Editor, e.g. for adding own buttons
+</td></tr>
+<tr>
+<td><b>tinymce_inline_setup</b></td>
+<td>js: string; selector: string; env: object;</td>
+<td>Yes</td>
+<td>Setup method of normal inline Editor, e.g. for adding own buttons
+</td></tr>
+<tr>
+<td><b>comments_save</b></td>
+<td>user_id; attach_id; comment; page; reply_tp; permission;</td>
+<td>Yes</td>
+<td>Triggered before saving comments
+</td></tr>
+<tr>
+<td><b>admin_tasks</b></td>
+<td>-</td>
+<td>No</td>
+<td>Expecting an array like this: <div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$arrTasks = array(
+	//Confirm new Chars
+	'confirmChars' =&gt; array(
+			'name'		=&gt; 'uc_confirm_list',
+			'icon'		=&gt; 'fa fa-check',
+			'notify_func'	=&gt; array($this, 'ntfyConfirmChars'),
+			'content_func'	=&gt; array($this, 'contentConfirmChars'),
+			'action_func'	=&gt; array($this, 'actionHandleChars'),
+			'actions'	=&gt; array(
+					'confirm' =&gt; array('icon' =&gt; 'fa fa-check', 'title' =&gt; 'uc_confirm_char', 'permissions' =&gt; array('a_members_man')),
+					'delete'  =&gt; array('icon' =&gt; 'fa-trash-o', 'title' =&gt; 'delete_member', 'permissions' =&gt; array('a_members_man')),
+			),
+	),
+);</pre></div>
+</td></tr>
+<tr>
+<td><b>massmail_content</b></td>
+<td>-</td>
+<td>No</td>
+<td>Expecting an array like this: <div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$data = array(
+	'latest_news'	=&gt; array(
+		'name'	=&gt; $this-&gt;user-&gt;lang('news'),
+		'list'	=&gt; $arrNewsList,
+	),
+);</pre></div>
+</td></tr>
+<tr>
+<td><b>calendar</b></td>
+<td>start: integer; end: integer;</td>
+<td>No</td>
+<td>Expecting an array like this: <div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$events[] = array(
+	'className'				=&gt; 'cal_birthday',
+	'title'					=&gt; $this-&gt;pdh-&gt;get('user', 'name', array($birthday_uid)),
+	'start'					=&gt; $birthday_y.'-'.$this-&gt;time-&gt;date('m-d', $birthday_ts),
+	'end'					=&gt; $birthday_y.'-'.$this-&gt;time-&gt;date('m-d', $birthday_ts),
+	'allDay'				=&gt; true,
+	'textColor'				=&gt; '#000000',
+	'backgroundColor'			=&gt; '#E8E8E8',
+	'borderColor'				=&gt; '#7F7F7F',
+	'author'				=&gt; 'Authorname',
+	'note'					=&gt; 'Note',
+);</pre></div>
+</td></tr>
+<tr>
+<td><b>main_menu_items</b></td>
+<td>-</td>
+<td>No</td>
+<td>Adding of links. Expecting an array like this: <div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$main_menu[] = array(
+	'link'  		=&gt; $this-&gt;pdh-&gt;get('mediacenter_categories', 'path', array($intCategoryID)),
+	'text'  		=&gt; $strCategoryName,
+	'check' 		=&gt; 'u_mediacenter_view',
+	'default_hide'		=&gt; 1,
+	'link_category' 	=&gt; 'mc_mediacenter',
+);</pre></div>
+</td></tr>
+<tr>
+<td><b>calendarevent_chartooltip</b></td>
+<td>member_id: integer</td>
+<td>No</td>
+<td>Expects an array with the content of the tooltip. Each array entry is a new line of the tooltip.
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$membertooltip[] = "This is row 1";
+$membertooltip[] = "This is row 2";
+return $membertooltip;</pre></div>
+</td></tr>
+<tr>
+<td><b>userprofile_customtabs</b></td>
+<td>user_id: integer</td>
+<td>No</td>
+<td>Creates a new tab at the userprofile page. Expects an array with the content, like this:
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$out = array(
+'title' =&gt; "Title of the Tab",
+'content' =&gt; "Content of the Tab", 
+);
+return $out;</pre></div>
+</td></tr></tbody></table>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Since_EQdkp_Plus_2.3">Since EQdkp Plus 2.3</span></h2>
+<table class="wikitable">
+
+<tbody><tr class="hintergrundfarbe5">
+<th>Hook</th>
+<th>Parameters</th>
+<th>Recursive</th>
+<th>Description
+</th></tr>
+<tr>
+<td><b>user_avatarimg</b></td>
+<td>user_id:interger; fullsize:boolean; avatarimg:string; avatartype:int; default:boolean;</td>
+<td>Yes</td>
+<td>Triggered when user avatar is shown.
+</td></tr>
+<tr>
+<td><b>avatar_provider</b></td>
+<td>for_usersettings:boolean;</td>
+<td>No</td>
+<td><div class="mw-highlight mw-content-ltr" dir="ltr"><pre>return array('discord' =&gt; array('name' =&gt; 'Discord'));</pre></div>
+</td></tr>
+<tr>
+<td><b>user_inserted</b></td>
+<td>user_id:interger; username:string; data: Array;</td>
+<td>Yes</td>
+<td>Triggered when new user created. Read-only.
+</td></tr>
+<tr>
+<td><b>user_updated</b></td>
+<td>user_id:integer; data: Array;</td>
+<td>No</td>
+<td>Triggered when a user is updated. Read-only.
+</td></tr>
+<tr>
+<td><b>user_delete</b></td>
+<td>user_id:integer</td>
+<td>No</td>
+<td>Triggered when a user is deleted. Read-only.
+</td></tr>
+<tr>
+<td><b>user_reset</b></td>
+<td>own_userid:integer</td>
+<td>No</td>
+<td>Triggered when all user are deleted. Read-only.
+</td></tr>
+<tr>
+<td><b>viewraid</b></td>
+<td>raid_id:integer</td>
+<td>No</td>
+<td>Triggered when showing a raid at the frontend. Read-only. You can use template-listener like "viewraid_beforetables" to show content.
+</td></tr>
+</tbody></table>
+<p>If you need more hooks, please contact us in our board.
+</p>
+<h1><span class="mw-headline" id="Create_new_hook">Create new hook</span></h1>
+<h2><span class="mw-headline" id="Filename">Filename</span></h2>
+<p>The Filename of your new hook must contain the name of the hook before ".class.php".
+Example: myhook_wrapper.class.php or anotherhook_portal.class.php
+</p>
+<h2><span class="mw-headline" id="Classname">Classname</span></h2>
+<p>The Classname must be the same as the filename before ".class.php", means "myhook_wrapper" or "anotherhook_portal".
+</p>
+<h2><span class="mw-headline" id="Methodname">Methodname</span></h2>
+<p>The name of the method that will be executed must be the hookname, means "wrapper" or "portal".
+</p>
+<h2><span class="mw-headline" id="Folder">Folder</span></h2>
+<p>Your new hook must be put into the folder "core/hooks".
+</p>
+<h1><span class="mw-headline" id="Example-Hook">Example-Hook</span></h1>
+<p>This hook is a example for displaying the realmstatus in the personal area on top of a EQdkp Plus page.
+Filename: realmstatus_portal_hook.class.php
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>&lt;?php
+/*
+ * Project:     EQdkp Shoutbox
+ * License:     Creative Commons - Attribution-Noncommercial-Share Alike 3.0 Unported
+ * Link:        http://creativecommons.org/licenses/by-nc-sa/3.0/
+ * -----------------------------------------------------------------------
+ * Began:       2008
+ * Date:        $Date: 2012-11-11 18:36:16 +0100 (So, 11. Nov 2012) $
+ * -----------------------------------------------------------------------
+ * @author      $Author: godmod $
+ * @copyright   2008-2011 Aderyn
+ * @link        http://eqdkp-plus.com
+ * @package     shoutbox
+ * @version     $Rev: 12434 $
+ *
+ * $Id: realmstatus_portal_hook.class.php 12434 2012-11-11 17:36:16Z godmod $
+ */
+
+if (!defined('EQDKP_INC'))
+{
+  header('HTTP/1.0 404 Not Found');exit;
+}
+
+
+/*+----------------------------------------------------------------------------
+  | realmstatus_portal_hook
+  +--------------------------------------------------------------------------*/
+if (!class_exists('realmstatus_portal_hook'))
+{
+  class realmstatus_portal_hook extends gen_class
+  {
+    /* List of dependencies */
+    public static $shortcuts = array('user', 'tpl', 'game', 'config');
+
+	/**
+    * portal
+    * Do the hook 'portal'
+    *
+    * @return array
+    */
+	public function portal()
+	{
+		 // try to load the status file for this game
+		$game_name = strtolower($this-&gt;game-&gt;get_game());
+		$status_file = $this-&gt;root_path.'portal/realmstatus/'.$game_name.'/status.class.php';
+		if (file_exists($status_file))
+		{
+		  include_once($status_file);
+
+		  $class_name = $game_name.'_realmstatus';
+		  $status = registry::register($class_name);
+		  if ($status){
+			$strServerStatus = $status-&gt;checkServer($this-&gt;config-&gt;get('servername'));
+			$text = $this-&gt;config-&gt;get('servername');
+			if ($strServerStatus = 'up') $text .= ' &lt;span class="positive"&gt;online&lt;/span&gt;';
+			if ($strServerStatus != 'up') $text .= ' &lt;span class="negative"&gt;offline&lt;/span&gt;';
+			
+			$this-&gt;tpl-&gt;assign_block_vars('personal_area_addition', array(
+				'TEXT' =&gt; $text,
+			));
+		  }
+
+		}
+	}
+  }
+}
+if(version_compare(PHP_VERSION, '5.3.0', '&lt;')) {
+	registry::add_const('short_realmstatus_portal_hook', realmstatus_portal_hook::$shortcuts);
+}
+?&gt;</pre></div>
+<!-- 
+NewPP limit report
+Cached time: 20200928014824
+Cache expiry: 86400
+Dynamic content: false
+Complications: []
+CPU time usage: 0.053 seconds
+Real time usage: 0.155 seconds
+Preprocessor visited node count: 66/1000000
+Preprocessor generated node count: 0/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4726/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key eqdkp2_wiki:pcache:idhash:110-0!canonical and timestamp 20200928014824 and revision id 2365
+ -->
+</div></div>
+		
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://wiki.eqdkp-plus.eu/w/index.php?title=Hooks/en&amp;oldid=2365">https://wiki.eqdkp-plus.eu/w/index.php?title=Hooks/en&amp;oldid=2365</a>"</div>
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="../Special:Categories.html" title="Special:Categories">Categories</a>: <ul><li><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Category:Pages_with_syntax_highlighting_errors&amp;action=edit&amp;redlink=1" class="new" title="Category:Pages with syntax highlighting errors (page does not exist)">Pages with syntax highlighting errors</a></li><li><a href="../Category:English.html" title="Category:English">English</a></li><li><a href="../Category:Extending.html" title="Category:Extending">Extending</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+
+
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-uls" class="active"><a href="en.html#" class="uls-trigger">English</a></li><li id="pt-login"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Special:UserLogin&amp;returnto=Hooks%2Fen" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="en.html" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Talk:Hooks/en&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="en.html">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Hooks/en&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Hooks/en&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="https://wiki.eqdkp-plus.eu/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search EQdkp Plus" title="Search EQdkp Plus [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="../Main_Page.html" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-EQdkp_Plus" aria-labelledby="p-EQdkp_Plus-label">
+			<h3 id="p-EQdkp_Plus-label">EQdkp Plus</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Home"><a href="https://eqdkp-plus.eu" rel="nofollow">Home</a></li><li id="n-Forum"><a href="https://forum.eqdkp-plus.eu/" rel="nofollow">Forum</a></li><li id="n-Bugtracker"><a href="https://forum.eqdkp-plus.eu/bugtracker" rel="nofollow">Bugtracker</a></li><li id="n-Downloads"><a href="https://repo.eqdkp-plus.eu/" rel="nofollow">Downloads</a></li><li id="n-Project-Search"><a href="https://forum.eqdkp-plus.eu/wcf/project-search" rel="nofollow">Project-Search</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Wiki" aria-labelledby="p-Wiki-label">
+			<h3 id="p-Wiki-label">Wiki</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Main"><a href="../Main_Page.html">Main</a></li><li id="n-Installation"><a href="../Category:Installation.html">Installation</a></li><li id="n-Usage"><a href="../Category:Usage.html">Usage</a></li><li id="n-Extensions"><a href="../Category:Extensions.html">Extensions</a></li><li id="n-Development"><a href="../Category:Development.html">Development</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Misc" aria-labelledby="p-Misc-label">
+			<h3 id="p-Misc-label">Misc</h3>
+			<div class="body">
+								<ul>
+					<li id="n-recentchanges"><a href="https://wiki.eqdkp-plus.eu/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="../Special:WhatLinksHere/Hooks/en.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://wiki.eqdkp-plus.eu/wiki/Special:RecentChangesLinked/Hooks/en" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="../Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Hooks/en&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Hooks/en&amp;oldid=2365" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Hooks/en&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 24 May 2018, at 11:35.</li>
+								<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons „Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen“</a> unless otherwise noted.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="../Projekt:Privacy_policy.html" title="Projekt:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="https://wiki.eqdkp-plus.eu/wiki/Projekt:About" title="Projekt:About">About EQdkp Plus</a></li>
+								<li id="footer-places-disclaimer"><a href="https://wiki.eqdkp-plus.eu/wiki/Projekt:General_disclaimer" title="Projekt:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-mobileview"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Hooks/en&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="../../w/resources/assets/licenses/cc-by-nc-sa.png" alt="Creative Commons „Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen“" width="88" height="31"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="../../w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="../../w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, ../../w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.053","walltime":"0.155","ppvisitednodes":{"value":66,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4726,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20200928014824","ttl":86400,"transientcontent":false}}});});</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://eqdkp-plus.eu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 6]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://eqdkp-plus.eu/piwik/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":281});});</script>
+</body>
+<!-- Cached 20200928014824 -->
+</html>
