@@ -1,3 +1,5 @@
+## Extensions
+
 ## Plugins
 | Name | Version | Required EQdkp Plus Version | Release Date | 
 |---|---|---|---|
