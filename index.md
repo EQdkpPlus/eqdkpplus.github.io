@@ -9,6 +9,8 @@ The source code of the Core is available [here](https://github.com/EQdkpPlus/cor
 ## Extensions
 The latest version of the extensions can be downloaded here: [Extension Download](/packages/extensions/index.html)
 
+A guide for installation extensions is available here: [Install Extensions](https://eqdkpplus.github.io/wiki/wiki/Install_Extensions.html)
+
 The source code is available in the repositories at the [GitHub Organisation](https://github.com/EQdkpPlus).
 
 ## Help
