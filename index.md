@@ -15,7 +15,7 @@ A guide for installation extensions is available here: [Install Extensions](http
 The source code is available in the repositories at the [GitHub Organisation](https://github.com/EQdkpPlus).
 
 ## JDKP
-Go to the [JDKP](jdkp) page for downloading JDKP
+Go to the [JDKP](jdkp.html) page for downloading JDKP
 
 ## Help
 You can find helpful articles at the [EQdkp Plus Wiki Dump](https://eqdkpplus.github.io/wiki/wiki/index.html).
