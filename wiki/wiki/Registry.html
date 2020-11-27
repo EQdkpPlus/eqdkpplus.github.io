@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Registry - EQdkp Plus</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Registry","wgTitle":"Registry","wgCurRevisionId":1341,"wgRevisionId":1341,"wgArticleId":114,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with syntax highlighting errors","Coding"],"wgBreakFrames":!1,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Registry","wgRelevantArticleId":114,"wgRequestId":"X29uHoMqnKJeceIH7Y56SQAAAEE","wgCSPNonce":!1,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":
+!1,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMFDisplayWikibaseDescriptions":{"search":!1,"nearby":!1,"watchlist":!1,"tagline":!1},"wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English"};RLSTATE={"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"ready","user.tokens":"loading","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","ext.uls.pt":"ready","ext.CookieWarning.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","ext.FontAwesome","ext.uls.interface","ext.CookieWarning","skins.vector.js"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="../w/load.php%3Flang=en&amp;modules=ext.CookieWarning.styles|ext.pygments|ext.uls.pt|mediawiki.legacy.commonPrint,shared|mediawiki.skinning.interface|mediawiki.toc.styles|skins.vector.styles&amp;only=styles&amp;skin=vector.css"/>
+<script async="" src="../w/load.php%3Flang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="../w/load.php%3Flang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector.css"/>
+<meta name="generator" content="MediaWiki 1.34.4"/>
+<link rel="shortcut icon" href="../favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="https://wiki.eqdkp-plus.eu/w/opensearch_desc.php" title="EQdkp Plus (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.eqdkp-plus.eu/w/api.php?action=rsd"/>
+<link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="EQdkp Plus Atom feed" href="https://wiki.eqdkp-plus.eu/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Registry rootpage-Registry skin-vector action-view"><div class="mw-cookiewarning-container banner-container"><div class="mw-cookiewarning-text"><span>Cookies help us deliver our services. By using our services, you agree to our use of cookies.</span> <a href="https://eqdkp-plus.eu/en/about/privacypolicy.html">More information</a><form method="POST"><input name="disablecookiewarning" class="mw-cookiewarning-dismiss" type="submit" value="OK"/></form></div></div>
+<div id="mw-page-base" class="noprint"></div>
+<div id="mw-head-base" class="noprint"></div>
+<div id="content" class="mw-body" role="main">
+	<a id="top"></a>
+	
+	<div class="mw-indicators mw-body-content">
+</div>
+
+	<h1 id="firstHeading" class="firstHeading" lang="en">Registry</h1>
+	
+	<div id="bodyContent" class="mw-body-content">
+		<div id="siteSub" class="noprint">From EQdkp Plus</div>
+		<div id="contentSub"></div>
+		
+		
+		
+		<div id="jump-to-nav"></div>
+		<a class="mw-jump-link" href="Registry.html#mw-head">Jump to navigation</a>
+		<a class="mw-jump-link" href="Registry.html#p-search">Jump to search</a>
+		<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><p><br />
+Since late-alpha of EQdkp-Plus 1.0 we use a registry. The registry is a static class, which task is to ensure global availability of classes and constants. Another important point is, that the registry takes care of the destruction process, so you can safely use other classes (e.g. database, datacache) in your destruct method, without the risk of getting a fatal error, because the class used has been destroyed before.
+</p>
+<div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Registry.html#Public_methods_of_registry"><span class="tocnumber">1</span> <span class="toctext">Public methods of registry</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="Registry.html#register"><span class="tocnumber">1.1</span> <span class="toctext">register</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="Registry.html#Parameters"><span class="tocnumber">1.1.1</span> <span class="toctext">Parameters</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="Registry.html#Return-Value"><span class="tocnumber">1.1.2</span> <span class="toctext">Return-Value</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="Registry.html#Example"><span class="tocnumber">1.1.3</span> <span class="toctext">Example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="Registry.html#class_exists"><span class="tocnumber">1.2</span> <span class="toctext">class_exists</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="Registry.html#Parameters_2"><span class="tocnumber">1.2.1</span> <span class="toctext">Parameters</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="Registry.html#Return-Value_2"><span class="tocnumber">1.2.2</span> <span class="toctext">Return-Value</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-9"><a href="Registry.html#get_const"><span class="tocnumber">1.3</span> <span class="toctext">get_const</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="Registry.html#Parameters_3"><span class="tocnumber">1.3.1</span> <span class="toctext">Parameters</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="Registry.html#add_const"><span class="tocnumber">1.4</span> <span class="toctext">add_const</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="Registry.html#Parameters_4"><span class="tocnumber">1.4.1</span> <span class="toctext">Parameters</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="Registry.html#isset_const"><span class="tocnumber">1.5</span> <span class="toctext">isset_const</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="Registry.html#Parameters_5"><span class="tocnumber">1.5.1</span> <span class="toctext">Parameters</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="Registry.html#The_gen_class"><span class="tocnumber">2</span> <span class="toctext">The gen_class</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="Registry.html#direct_extending"><span class="tocnumber">2.1</span> <span class="toctext">direct extending</span></a>
+<ul>
+<li class="toclevel-3 tocsection-17"><a href="Registry.html#Example_2"><span class="tocnumber">2.1.1</span> <span class="toctext">Example</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-18"><a href="Registry.html#indirect_extending"><span class="tocnumber">2.2</span> <span class="toctext">indirect extending</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="Registry.html#singleton"><span class="tocnumber">2.3</span> <span class="toctext">singleton</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="Registry.html#Directly_accessed_files"><span class="tocnumber">2.4</span> <span class="toctext">Directly accessed files</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="Registry.html#Lite_Mode"><span class="tocnumber">3</span> <span class="toctext">Lite Mode</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="Registry.html#How_to_enable"><span class="tocnumber">3.1</span> <span class="toctext">How to enable</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Public_methods_of_registry">Public methods of registry</span></h1>
+<p>These methods are needed, whenever you want to access global classes/constants. Usually you don't need to call these directly, because you are operating in a class which is extended from the <a href="Registry.html#The_gen_class" title="Registry">gen_class</a>.
+You call these methods in the following way:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$example = registry::register(params);</pre></div>
+<h2><span class="mw-headline" id="register">register</span></h2>
+<p>You call the register method when you want to get an instance of a class. For most classes, you don't need to care for its existance. The complete list can be found in the <i>core/super_registry.class.php</i> in the $locs array.
+For all other classes you have to ensure, that the class is included, but not instantiated before.
+</p>
+<h3><span class="mw-headline" id="Parameters">Parameters</span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>registry::register($classname, $params=array());</pre></div>
+<ul><li>$classname is the name of the class you want to get the instance of</li>
+<li>$params is an array of params you want to pass to the constructor of the class</li></ul>
+<h3><span class="mw-headline" id="Return-Value">Return-Value</span></h3>
+<p>You get the instance of the class returned. For most classes this instance is cached (see <a href="Registry.html#singleton" title="Registry">this</a> for details). To get the same instance again you need to pass exactly the parameters.
+</p>
+<h3><span class="mw-headline" id="Example">Example</span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>//old
+$file_handler = new file_handler(false);
+$another_file_handler = new file_handler(true);
+//new
+$file_handler = registry::register('file_handler', array(false));
+//using the same instance again ($file_handler-&gt;do_something() would be a lot easier)
+registry::register('file_handler', array(false))-&gt;do_something();
+
+$another_file_handler = registry::register('file_handler', array(true));</pre></div>
+<h2><span class="mw-headline" id="class_exists">class_exists</span></h2>
+<p>Checks if the registry know this class and is able to load it on its own.
+</p>
+<h3><span class="mw-headline" id="Parameters_2">Parameters</span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>registry::class_exists($classname);</pre></div>
+<h3><span class="mw-headline" id="Return-Value_2">Return-Value</span></h3>
+<p>boolean true/false.
+</p>
+<h2><span class="mw-headline" id="get_const">get_const</span></h2>
+<p>If you want to get a global constant, e.g. root_path, you call this method.
+By default there are the constants <i>root_path</i>, <i>SID</i>, <i>SKEY</i>, <i>scriptstart</i> and everything from config.php available.
+</p>
+<h3><span class="mw-headline" id="Parameters_3">Parameters</span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>registry::get_const($constname);</pre></div>
+<h2><span class="mw-headline" id="add_const">add_const</span></h2>
+<p>Add a variable as global constant.
+</p>
+<h3><span class="mw-headline" id="Parameters_4">Parameters</span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>registry::add_const($name, $value);</pre></div>
+<h2><span class="mw-headline" id="isset_const">isset_const</span></h2>
+<p>Checks if a constant is set.
+</p>
+<h3><span class="mw-headline" id="Parameters_5">Parameters</span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>registry::isset_const($name);</pre></div>
+<h1><span class="mw-headline" id="The_gen_class">The gen_class</span></h1>
+<p>This class simplifies many things for you. To benefit, you must extend you class with the gen_class.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>class MyExample extends gen_class { /* ... */ }</pre></div>
+<h2><span class="mw-headline" id="direct_extending">direct extending</span></h2>
+<p>If your class can directly extend from the gen_class. In the $shortcuts array you list all the classes you want to use via $this-&gt; in your class.
+The information in the array is stored as follows:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>array(KEY =&gt; DATA);</pre></div>
+<p>Afterwards you can access the class via $this-&gt;KEY.
+DATA is the classname, if the class needs no arguments passed to the constructor.
+If the class needs arguments passed to the constructor it's an array:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>DATA = array('classname', array($param1, $param2, ...));</pre></div>
+<p>For most of the regular used classes there exist short versions. You then just write the global shortform. Example:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$shortcuts = array('pdl', 'pdh', 'core');</pre></div>
+<p>You then can access the plus_debug_logger via $this-&gt;pdl, the plus_datahandler via $this-&gt;pdh and the core-class via $this-&gt;core.
+All short-versions can be found in the $aliases array in core/super_registry.class.php.
+</p>
+<h3><span class="mw-headline" id="Example_2">Example</span></h3>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>class Example extends gen_class {
+  public static $shortcuts = array();
+}</pre></div>
+<p>Additionally there exists a dependencies array. It's build in the same way the shortcuts array is, but you only need to put those classes in there, which you want to use in the __destruct method of your class.
+</p>
+<h2><span class="mw-headline" id="indirect_extending">indirect extending</span></h2>
+<p>If your class extends from a class which extends from the gen_class.
+It is nearly everything the same as a direct extended class, except of one point:
+You don't directly define the $shortcuts array public static, but define a function instead, looking similar to the following Example:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>class MyClass extends YourClass {
+  public static function __shortcuts() {
+    //define the local shortcuts of this class
+    $shortcuts = array('core', 'db', 'pdh', 'myshort' =&gt; 'someclass');
+    return array_merge(parent::$shortcuts, $shortcuts); //note: in some cases you want to use parent::__shortcuts()
+  }
+}
+class YourClass extends gen_class {
+  public static $shortcuts = array('core', 'pfh', 'pdl');
+}</pre></div>
+<p>The purpose here is to ensure that both, the parent as well as the child, are able to have their own dependencies.
+</p>
+<h2><span class="mw-headline" id="singleton">singleton</span></h2>
+<p>You can define if your class is a singleton or not.
+<i>Singleton</i> means, you want only one instance of the class to exist.
+By default classes are singletons, but you can disable it:
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>class Example extends gen_class {
+  public static $singleton = false; //here we define, that our class is no singleton
+  /* the class itself */
+}</pre></div>
+<h2><span class="mw-headline" id="Directly_accessed_files">Directly accessed files</span></h2>
+<p>If your file is directly accessed (all files which include the common.php itself), you need to write one additional line at the bottom of the file.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>&lt;?php
+//include common
+class MyExample extends gen_class {
+/* the class-body */
+}
+registry::register('MyExample');
+?&gt;</pre></div>
+<p>Otherwise, nothing will happen.
+</p>
+<h1><span class="mw-headline" id="Lite_Mode">Lite Mode</span></h1>
+<p>The lite mode is the mode, which was originally added, to be used in the maintenance mode. Only very few classes are initiated by default (pdl, db, user, config). You are however not limited to use these classes only. You can still use every class you want. 
+</p>
+<h2><span class="mw-headline" id="How_to_enable">How to enable</span></h2>
+<p>It's very simple to enable, just define $lite = true; before you include the common.php.
+</p>
+<div class="mw-highlight mw-content-ltr" dir="ltr"><pre>$lite = true;
+$eqdkp_root_path = './';
+include_once($eqdkp_root_path.'common.php');
+/* ... */</pre></div>
+<!-- 
+NewPP limit report
+Cached time: 20200926012536
+Cache expiry: 86400
+Dynamic content: false
+Complications: []
+CPU time usage: 0.096 seconds
+Real time usage: 0.336 seconds
+Preprocessor visited node count: 146/1000000
+Preprocessor generated node count: 0/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3469/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key eqdkp2_wiki:pcache:idhash:114-0!canonical and timestamp 20200926012536 and revision id 1341
+ -->
+</div></div>
+		
+		<div class="printfooter">Retrieved from "<a dir="ltr" href="https://wiki.eqdkp-plus.eu/w/index.php?title=Registry&amp;oldid=1341">https://wiki.eqdkp-plus.eu/w/index.php?title=Registry&amp;oldid=1341</a>"</div>
+		
+		<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="./Special:Categories.html" title="Special:Categories">Categories</a>: <ul><li><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Category:Pages_with_syntax_highlighting_errors&amp;action=edit&amp;redlink=1" class="new" title="Category:Pages with syntax highlighting errors (page does not exist)">Pages with syntax highlighting errors</a></li><li><a href="./Category:Coding.html" title="Category:Coding">Coding</a></li></ul></div></div>
+		<div class="visualClear"></div>
+		
+	</div>
+</div>
+
+
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-uls" class="active"><a href="Registry.html#" class="uls-trigger">English</a></li><li id="pt-login"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Special:UserLogin&amp;returnto=Registry" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="Registry.html" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Talk:Registry&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<ul class="menu">
+													</ul>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+							<li id="ca-view" class="collapsible selected"><span><a href="Registry.html">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Registry&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Registry&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<ul class="menu">
+													</ul>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="https://wiki.eqdkp-plus.eu/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search EQdkp Plus" title="Search EQdkp Plus [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="Main_Page.html" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-EQdkp_Plus" aria-labelledby="p-EQdkp_Plus-label">
+			<h3 id="p-EQdkp_Plus-label">EQdkp Plus</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Home"><a href="https://eqdkp-plus.eu" rel="nofollow">Home</a></li><li id="n-Forum"><a href="https://forum.eqdkp-plus.eu/" rel="nofollow">Forum</a></li><li id="n-Bugtracker"><a href="https://forum.eqdkp-plus.eu/bugtracker" rel="nofollow">Bugtracker</a></li><li id="n-Downloads"><a href="https://repo.eqdkp-plus.eu/" rel="nofollow">Downloads</a></li><li id="n-Project-Search"><a href="https://forum.eqdkp-plus.eu/wcf/project-search" rel="nofollow">Project-Search</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Wiki" aria-labelledby="p-Wiki-label">
+			<h3 id="p-Wiki-label">Wiki</h3>
+			<div class="body">
+								<ul>
+					<li id="n-Main"><a href="Main_Page.html">Main</a></li><li id="n-Installation"><a href="./Category:Installation.html">Installation</a></li><li id="n-Usage"><a href="./Category:Usage.html">Usage</a></li><li id="n-Extensions"><a href="./Category:Extensions.html">Extensions</a></li><li id="n-Development"><a href="./Category:Development.html">Development</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Misc" aria-labelledby="p-Misc-label">
+			<h3 id="p-Misc-label">Misc</h3>
+			<div class="body">
+								<ul>
+					<li id="n-recentchanges"><a href="https://wiki.eqdkp-plus.eu/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="./Special:WhatLinksHere/Registry.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="https://wiki.eqdkp-plus.eu/wiki/Special:RecentChangesLinked/Registry" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="./Special:SpecialPages.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Registry&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Registry&amp;oldid=1341" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Registry&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 29 September 2016, at 20:30.</li>
+								<li id="footer-info-copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons „Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen“</a> unless otherwise noted.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="./Projekt:Privacy_policy.html" title="Projekt:Privacy policy">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="https://wiki.eqdkp-plus.eu/wiki/Projekt:About" title="Projekt:About">About EQdkp Plus</a></li>
+								<li id="footer-places-disclaimer"><a href="https://wiki.eqdkp-plus.eu/wiki/Projekt:General_disclaimer" title="Projekt:General disclaimer">Disclaimers</a></li>
+								<li id="footer-places-mobileview"><a href="https://wiki.eqdkp-plus.eu/w/index.php?title=Registry&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img src="../w/resources/assets/licenses/cc-by-nc-sa.png" alt="Creative Commons „Namensnennung, nicht kommerziell, Weitergabe unter gleichen Bedingungen“" width="88" height="31"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="https://www.mediawiki.org/"><img src="../w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="../w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, ../w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.096","walltime":"0.336","ppvisitednodes":{"value":146,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3469,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20200926012536","ttl":86400,"transientcontent":false}}});});</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['disableCookies']);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://eqdkp-plus.eu/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 6]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://eqdkp-plus.eu/piwik/piwik.php?idsite=6" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":105});});</script>
+</body>
+<!-- Cached 20200926163646 -->
+</html>
