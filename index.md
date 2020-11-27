@@ -5,9 +5,7 @@
 ## Core
 The latest release of EQdkp Plus can be downloaded here: [Core Download](/packages/core/fullpackage.zip)
 
-An installation guide is available here: [Installation](https://eqdkpplus.github.io/wiki/wiki/Installation.html)
-
-The source code of the Core is available [here](https://github.com/EQdkpPlus/core).
+[Installation Guide](https://eqdkpplus.github.io/wiki/wiki/Installation.html) • [Requierements](Requirements) • [Source Code](https://github.com/EQdkpPlus/core)
 
 ## Extensions
 The latest releases of EQdkp Plus extensions can be downloaded here: [Extension Download](/packages/extensions/index.html)
