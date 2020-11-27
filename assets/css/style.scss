@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
-.test {
-  display:inline;
+.page-header {
+ background-color: #2e78b0;
+ background-image: url('https://eqdkpplus.github.io/background-head.svg'), linear-gradient(to bottom, #2e78b0 0%, #193759 100%)
 }
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  color: #4e7fa8;
+}
+
