@@ -21,6 +21,9 @@ You can find helpful articles at the [EQdkp Plus Wiki Dump](https://eqdkpplus.gi
 ## GitHub
 You will find EQdkp Plus core, the extensions and other helpful data in the [GitHub Organisation](https://github.com/EQdkpPlus).
 
+## Buy us a beer
+If you find EQdkp Plus still useful, you can buy us a beer using (PayPal)[https://www.paypal.com/paypalme/eqdkpplus].
+
 ## License
 Copyright (C) 2006-2020 EQdkp-Plus Developer Team
 
