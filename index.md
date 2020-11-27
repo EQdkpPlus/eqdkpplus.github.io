@@ -1,1 +1,26 @@
-#Test
+```
+The development and maintenance of EQdkp Plus was stopped after being 15 Years the Gamer CMS & DKP System. Therefore, we have archived everything helpful here at GitHub.
+Thanks for your journey with EQdkp Plus!
+```
+
+## Core
+The latest version can be downloaded here:
+
+## Extensions
+The latest version of the extensions can be downloaded here:
+
+## Help
+You can find helpful articles at the [EQdkp Plus Wiki Dump](https://eqdkpplus.github.io/wiki/wiki/index.html).
+
+## GitHub
+You will find EQdkp Plus core, the extensions and other helpful data in the [GitHub Organisation](https://github.com/EQdkpPlus).
+
+## License
+Copyright (C) 2006-2020 EQdkp-Plus Developer Team
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
