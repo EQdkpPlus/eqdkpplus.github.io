@@ -2,3 +2,5 @@ theme: jekyll-theme-cayman
 # global settings
 title: "EQdkp Plus"
 description: "Easy Raid- and Guildmanagement - with EQdkp Plus"
+show_downloads: true
+
