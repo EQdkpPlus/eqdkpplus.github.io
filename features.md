@@ -14,13 +14,13 @@ Supported Forums/CMS:
 * Drupal
 * e107
 * EQdkp Plus
-* * IPB3
+* IPB3
 * Joomla
 * MyBB (with SSO)
 * phpbb3 (with SSO)
 * SMF2 (with SSO)
 * vBulletin
-* * wbb3, wbb4 & WCS/WBB 5 (with SSO)
+* wbb3, wbb4 & WCS/WBB 5 (with SSO)
 * Wordpress
 * XenForo
 * Discord
