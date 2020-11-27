@@ -84,7 +84,7 @@
 | [Who is online?](https://eqdkpplus.github.io/packages/portal/whoisonline_0.3.3_84d2f88.zip) | 0.3.3 | Requires EQdkp Plus 2.0.0 | 21-06-2019 | 
 | [Word of the Moment](https://eqdkpplus.github.io/packages/portal/wordofthemoment_3.0.0.zip) | 3.0.0 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
 | [World of Warcraft - Uldir Progress](https://eqdkpplus.github.io/packages/portal/portal-uldirprogress-1.0.2_1.zip) | 1.0.2 | Requires EQdkp Plus 2.0.0 | 19-09-2018 | 
-| [WoW ClassicProgress](https://eqdkpplus.github.io/packages/portal/CLASSICprogress 1.1.3_1.zip) | 1.1.3 | Requires EQdkp Plus 2.3.28 | 08-05-2020 | 
+| [WoW ClassicProgress](https://eqdkpplus.github.io/packages/portal/CLASSICprogress_1.1.3_1.zip) | 1.1.3 | Requires EQdkp Plus 2.3.28 | 08-05-2020 | 
 | [WoW Crucible of Storms Progress](https://eqdkpplus.github.io/packages/portal/portal-crucibleprogress-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.2.0 | 12-02-2019 | 
 | [WoW Dazar&#39;Alor Progress](https://eqdkpplus.github.io/packages/portal/portal-dazarporgress-1.0.2_1.zip) | 1.0.2 | Requires EQdkp Plus 2.2.0 | 11-02-2019 | 
 | [WOW Eternal Palace Progress](https://eqdkpplus.github.io/packages/portal/portal-eternalpalaceprogress-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.2.0 | 21-06-2019 | 
