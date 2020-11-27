@@ -2,7 +2,7 @@
 
 ## Plugins
 
-									| Name | Version | Required EQdkp Plus Version | Release Date | 
+| Name | Version | Required EQdkp Plus Version | Release Date | 
 |---|---|---|---|
 | [Awards](https://eqdkpplus.github.io/packages/plugins/awards_strFilename.zip) | 0.4.0 | Requires EQdkp Plus 2.2.4 | 20-03-2016 | 
 | [Awards](https://eqdkpplus.github.io/packages/plugins/awards_0.5.2_f63479e.zip) | 0.5.2 | Requires EQdkp Plus 2.3.0 RC3 | 30-06-2019 | 
@@ -86,49 +86,49 @@
 
 | Name | Version | Required EQdkp Plus Version | Release Date | 
 |---|---|---|---|
-| [Article Slider](https://eqdkpplus.github.io/packages/portal modules/articleslider_0.2.2_0a7572b.zip) | 0.2.2 | Requires EQdkp Plus 2.0.0 | 24-06-2020 | 
-| [Birthday](https://eqdkpplus.github.io/packages/portal modules/birthday_2.1.4_98f0d2a.zip) | 2.1.4 | Requires EQdkp Plus 2.0.0 | 09-06-2017 | 
-| [Birthday](https://eqdkpplus.github.io/packages/portal modules/birthday_2.2.1_d43a40a.zip) | 2.2.1 | Requires EQdkp Plus 2.3.0 Beta3 | 17-06-2018 | 
-| [DKP Info](https://eqdkpplus.github.io/packages/portal modules/dkpinfo_3.0.2.zip) | 3.0.2 | Requires EQdkp Plus 2.0.0 | 07-09-2015 | 
-| [EQ2 Guildinfo](https://eqdkpplus.github.io/packages/portal modules/eq2guildinfo_1.zip) | 1.0 | Requires EQdkp Plus 2.3.0 RC2 | 27-11-2017 | 
-| [Everquest 2 Progression](https://eqdkpplus.github.io/packages/portal modules/eq2progress_64.zip) | 6.55 | Requires EQdkp Plus 2.3.0 | 07-10-2020 | 
-| [Guildnews](https://eqdkpplus.github.io/packages/portal modules/guildnews_0.3.1_213537b.zip) | 0.3.1 | Requires EQdkp Plus 2.0.0 | 12-07-2020 | 
-| [Language Switch](https://eqdkpplus.github.io/packages/portal modules/portal-language-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.3.0 | 13-10-2019 | 
-| [Last Comments](https://eqdkpplus.github.io/packages/portal modules/lastcomments_0.1.5_3b00f88.zip) | 0.1.5 | Requires EQdkp Plus 2.2.4 | 03-11-2020 | 
-| [Last items](https://eqdkpplus.github.io/packages/portal modules/lastitems_3.0.2.zip) | 3.0.2 | Requires EQdkp Plus 2.0.0 | 28-11-2015 | 
-| [Last Raids](https://eqdkpplus.github.io/packages/portal modules/lastraids_3.0.2.zip) | 3.0.2 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
-| [Latest Posts](https://eqdkpplus.github.io/packages/portal modules/latestposts_3.2.1_e72946b.zip) | 3.2.1 | Requires EQdkp Plus 2.0.0 | 04-01-2018 | 
-| [Latest Posts](https://eqdkpplus.github.io/packages/portal modules/latestposts_3.3.1_bc559c9.zip) | 3.3.1 | Requires EQdkp Plus 2.3.0 Alpha | 31-08-2020 | 
-| [Login](https://eqdkpplus.github.io/packages/portal modules/login_1.0.4_85caf6a.zip) | 1.0.4 | Requires EQdkp Plus 2.3.0 | 06-11-2019 | 
-| [Menu](https://eqdkpplus.github.io/packages/portal modules/menu_0.1.0.zip) | 0.1.0 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
-| [MMO News](https://eqdkpplus.github.io/packages/portal modules/mmo_news_0.3.1_b60e33d.zip) | 0.3.1 | Requires EQdkp Plus 2.0.0 | 16-08-2019 | 
-| [My Bars](https://eqdkpplus.github.io/packages/portal modules/mybars_2.0.1.zip) | 2.0.1 | Requires EQdkp Plus 2.0.0 | 13-03-2017 | 
-| [My Bars](https://eqdkpplus.github.io/packages/portal modules/mybars_2.0.3_ef4a477.zip) | 2.0.3 | Requires EQdkp Plus 2.3.0 Beta3 | 22-10-2019 | 
-| [My Content](https://eqdkpplus.github.io/packages/portal modules/mycontent_3.0.0.zip) | 3.0.0 | Requires EQdkp Plus 2.0.0 | 11-01-2018 | 
-| [My Content](https://eqdkpplus.github.io/packages/portal modules/mycontent_3.1.0_aa49856.zip) | 3.1.0 | Requires EQdkp Plus 2.3.0 Alpha | 11-01-2018 | 
-| [Next Events](https://eqdkpplus.github.io/packages/portal modules/nextevents_2.1.5_5a54a92.zip) | 2.1.5 | Requires EQdkp Plus 2.0.0 | 01-06-2018 | 
-| [Quick DKP](https://eqdkpplus.github.io/packages/portal modules/quickdkp_3.0.4.zip) | 3.0.4 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
-| [Quickpolls](https://eqdkpplus.github.io/packages/portal modules/quickpolls_0.3.0_06db006.zip) | 0.3.0 | Requires EQdkp Plus 2.0.0 | 13-03-2017 | 
-| [Quickpolls](https://eqdkpplus.github.io/packages/portal modules/quickpolls_0.3.1_fe7e61f.zip) | 0.3.1 | Requires EQdkp Plus 2.3.0 Beta3 | 13-03-2017 | 
-| [Realmstatus](https://eqdkpplus.github.io/packages/portal modules/realmstatus_2.0.15_4ae84d3.zip) | 2.0.15 | Requires EQdkp Plus 2.0.0 | 28-06-2020 | 
-| [Recruitment](https://eqdkpplus.github.io/packages/portal modules/recruitment_2.0.5.zip) | 2.0.5 | Requires EQdkp Plus 2.0.0 | 13-03-2017 | 
-| [Recruitment](https://eqdkpplus.github.io/packages/portal modules/recruitment_2.0.8_6d1d005.zip) | 2.0.8 | Requires EQdkp Plus 2.3.0 Beta3 | 03-04-2018 | 
-| [RSS Feed](https://eqdkpplus.github.io/packages/portal modules/rssfeed_4.0.0_377a743.zip) | 4.0.0 | Requires EQdkp Plus 2.0.0 | 22-09-2019 | 
-| [Search](https://eqdkpplus.github.io/packages/portal modules/portal-search-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.3.0 | 13-10-2019 | 
-| [Tagcloud](https://eqdkpplus.github.io/packages/portal modules/tagcloud_0.2.0_39d0d8c.zip) | 0.2.0 | Requires EQdkp Plus 2.0.0 | 19-06-2016 | 
-| [Timeline](https://eqdkpplus.github.io/packages/portal modules/portal-timeline-0.1.0_1.zip) | 0.1.0 | Requires EQdkp Plus 2.2.4 | 20-03-2016 | 
-| [Twitter](https://eqdkpplus.github.io/packages/portal modules/twitter_0.2.7_c5d838b.zip) | 0.2.7 | Requires EQdkp Plus 2.0.0 | 11-12-2016 | 
-| [Voice Server](https://eqdkpplus.github.io/packages/portal modules/voice_0.2.15_4b9b769.zip) | 0.2.15 | Requires EQdkp Plus 2.0.0 | 31-08-2020 | 
-| [Weather](https://eqdkpplus.github.io/packages/portal modules/weather_4.2.2_6806bd1.zip) | 4.2.2 | Requires EQdkp Plus 2.0.0 | 19-01-2018 | 
-| [Who is online?](https://eqdkpplus.github.io/packages/portal modules/whoisonline_0.3.3_84d2f88.zip) | 0.3.3 | Requires EQdkp Plus 2.0.0 | 21-06-2019 | 
-| [Word of the Moment](https://eqdkpplus.github.io/packages/portal modules/wordofthemoment_3.0.0.zip) | 3.0.0 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
-| [World of Warcraft - Uldir Progress](https://eqdkpplus.github.io/packages/portal modules/portal-uldirprogress-1.0.2_1.zip) | 1.0.2 | Requires EQdkp Plus 2.0.0 | 19-09-2018 | 
-| [WoW ClassicProgress](https://eqdkpplus.github.io/packages/portal modules/CLASSICprogress 1.1.3_1.zip) | 1.1.3 | Requires EQdkp Plus 2.3.28 | 08-05-2020 | 
-| [WoW Crucible of Storms Progress](https://eqdkpplus.github.io/packages/portal modules/portal-crucibleprogress-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.2.0 | 12-02-2019 | 
-| [WoW Dazar&#39;Alor Progress](https://eqdkpplus.github.io/packages/portal modules/portal-dazarporgress-1.0.2_1.zip) | 1.0.2 | Requires EQdkp Plus 2.2.0 | 11-02-2019 | 
-| [WOW Eternal Palace Progress](https://eqdkpplus.github.io/packages/portal modules/portal-eternalpalaceprogress-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.2.0 | 21-06-2019 | 
-| [WoW Ny&#39;alotha Progress](https://eqdkpplus.github.io/packages/portal modules/nyalothaprogress_1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.2.0 | 13-01-2020 | 
-| [WoW Progress](https://eqdkpplus.github.io/packages/portal modules/wowprogress_0.4.3_2c50e56.zip) | 0.4.3 | Requires EQdkp Plus 2.0.0 | 10-08-2018 | 
+| [Article Slider](https://eqdkpplus.github.io/packages/portal/articleslider_0.2.2_0a7572b.zip) | 0.2.2 | Requires EQdkp Plus 2.0.0 | 24-06-2020 | 
+| [Birthday](https://eqdkpplus.github.io/packages/portal/birthday_2.1.4_98f0d2a.zip) | 2.1.4 | Requires EQdkp Plus 2.0.0 | 09-06-2017 | 
+| [Birthday](https://eqdkpplus.github.io/packages/portal/birthday_2.2.1_d43a40a.zip) | 2.2.1 | Requires EQdkp Plus 2.3.0 Beta3 | 17-06-2018 | 
+| [DKP Info](https://eqdkpplus.github.io/packages/portal/dkpinfo_3.0.2.zip) | 3.0.2 | Requires EQdkp Plus 2.0.0 | 07-09-2015 | 
+| [EQ2 Guildinfo](https://eqdkpplus.github.io/packages/portal/eq2guildinfo_1.zip) | 1.0 | Requires EQdkp Plus 2.3.0 RC2 | 27-11-2017 | 
+| [Everquest 2 Progression](https://eqdkpplus.github.io/packages/portal/eq2progress_64.zip) | 6.55 | Requires EQdkp Plus 2.3.0 | 07-10-2020 | 
+| [Guildnews](https://eqdkpplus.github.io/packages/portal/guildnews_0.3.1_213537b.zip) | 0.3.1 | Requires EQdkp Plus 2.0.0 | 12-07-2020 | 
+| [Language Switch](https://eqdkpplus.github.io/packages/portal/portal-language-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.3.0 | 13-10-2019 | 
+| [Last Comments](https://eqdkpplus.github.io/packages/portal/lastcomments_0.1.5_3b00f88.zip) | 0.1.5 | Requires EQdkp Plus 2.2.4 | 03-11-2020 | 
+| [Last items](https://eqdkpplus.github.io/packages/portal/lastitems_3.0.2.zip) | 3.0.2 | Requires EQdkp Plus 2.0.0 | 28-11-2015 | 
+| [Last Raids](https://eqdkpplus.github.io/packages/portal/lastraids_3.0.2.zip) | 3.0.2 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
+| [Latest Posts](https://eqdkpplus.github.io/packages/portal/latestposts_3.2.1_e72946b.zip) | 3.2.1 | Requires EQdkp Plus 2.0.0 | 04-01-2018 | 
+| [Latest Posts](https://eqdkpplus.github.io/packages/portal/latestposts_3.3.1_bc559c9.zip) | 3.3.1 | Requires EQdkp Plus 2.3.0 Alpha | 31-08-2020 | 
+| [Login](https://eqdkpplus.github.io/packages/portal/login_1.0.4_85caf6a.zip) | 1.0.4 | Requires EQdkp Plus 2.3.0 | 06-11-2019 | 
+| [Menu](https://eqdkpplus.github.io/packages/portal/menu_0.1.0.zip) | 0.1.0 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
+| [MMO News](https://eqdkpplus.github.io/packages/portal/mmo_news_0.3.1_b60e33d.zip) | 0.3.1 | Requires EQdkp Plus 2.0.0 | 16-08-2019 | 
+| [My Bars](https://eqdkpplus.github.io/packages/portal/mybars_2.0.1.zip) | 2.0.1 | Requires EQdkp Plus 2.0.0 | 13-03-2017 | 
+| [My Bars](https://eqdkpplus.github.io/packages/portal/mybars_2.0.3_ef4a477.zip) | 2.0.3 | Requires EQdkp Plus 2.3.0 Beta3 | 22-10-2019 | 
+| [My Content](https://eqdkpplus.github.io/packages/portal/mycontent_3.0.0.zip) | 3.0.0 | Requires EQdkp Plus 2.0.0 | 11-01-2018 | 
+| [My Content](https://eqdkpplus.github.io/packages/portal/mycontent_3.1.0_aa49856.zip) | 3.1.0 | Requires EQdkp Plus 2.3.0 Alpha | 11-01-2018 | 
+| [Next Events](https://eqdkpplus.github.io/packages/portal/nextevents_2.1.5_5a54a92.zip) | 2.1.5 | Requires EQdkp Plus 2.0.0 | 01-06-2018 | 
+| [Quick DKP](https://eqdkpplus.github.io/packages/portal/quickdkp_3.0.4.zip) | 3.0.4 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
+| [Quickpolls](https://eqdkpplus.github.io/packages/portal/quickpolls_0.3.0_06db006.zip) | 0.3.0 | Requires EQdkp Plus 2.0.0 | 13-03-2017 | 
+| [Quickpolls](https://eqdkpplus.github.io/packages/portal/quickpolls_0.3.1_fe7e61f.zip) | 0.3.1 | Requires EQdkp Plus 2.3.0 Beta3 | 13-03-2017 | 
+| [Realmstatus](https://eqdkpplus.github.io/packages/portal/realmstatus_2.0.15_4ae84d3.zip) | 2.0.15 | Requires EQdkp Plus 2.0.0 | 28-06-2020 | 
+| [Recruitment](https://eqdkpplus.github.io/packages/portal/recruitment_2.0.5.zip) | 2.0.5 | Requires EQdkp Plus 2.0.0 | 13-03-2017 | 
+| [Recruitment](https://eqdkpplus.github.io/packages/portal/recruitment_2.0.8_6d1d005.zip) | 2.0.8 | Requires EQdkp Plus 2.3.0 Beta3 | 03-04-2018 | 
+| [RSS Feed](https://eqdkpplus.github.io/packages/portal/rssfeed_4.0.0_377a743.zip) | 4.0.0 | Requires EQdkp Plus 2.0.0 | 22-09-2019 | 
+| [Search](https://eqdkpplus.github.io/packages/portal/portal-search-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.3.0 | 13-10-2019 | 
+| [Tagcloud](https://eqdkpplus.github.io/packages/portal/tagcloud_0.2.0_39d0d8c.zip) | 0.2.0 | Requires EQdkp Plus 2.0.0 | 19-06-2016 | 
+| [Timeline](https://eqdkpplus.github.io/packages/portal/portal-timeline-0.1.0_1.zip) | 0.1.0 | Requires EQdkp Plus 2.2.4 | 20-03-2016 | 
+| [Twitter](https://eqdkpplus.github.io/packages/portal/twitter_0.2.7_c5d838b.zip) | 0.2.7 | Requires EQdkp Plus 2.0.0 | 11-12-2016 | 
+| [Voice Server](https://eqdkpplus.github.io/packages/portal/voice_0.2.15_4b9b769.zip) | 0.2.15 | Requires EQdkp Plus 2.0.0 | 31-08-2020 | 
+| [Weather](https://eqdkpplus.github.io/packages/portal/weather_4.2.2_6806bd1.zip) | 4.2.2 | Requires EQdkp Plus 2.0.0 | 19-01-2018 | 
+| [Who is online?](https://eqdkpplus.github.io/packages/portal/whoisonline_0.3.3_84d2f88.zip) | 0.3.3 | Requires EQdkp Plus 2.0.0 | 21-06-2019 | 
+| [Word of the Moment](https://eqdkpplus.github.io/packages/portal/wordofthemoment_3.0.0.zip) | 3.0.0 | Requires EQdkp Plus 2.0.0 | 06-09-2015 | 
+| [World of Warcraft - Uldir Progress](https://eqdkpplus.github.io/packages/portal/portal-uldirprogress-1.0.2_1.zip) | 1.0.2 | Requires EQdkp Plus 2.0.0 | 19-09-2018 | 
+| [WoW ClassicProgress](https://eqdkpplus.github.io/packages/portal/CLASSICprogress_1.1.3_1.zip) | 1.1.3 | Requires EQdkp Plus 2.3.28 | 08-05-2020 | 
+| [WoW Crucible of Storms Progress](https://eqdkpplus.github.io/packages/portal/portal-crucibleprogress-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.2.0 | 12-02-2019 | 
+| [WoW Dazar&#39;Alor Progress](https://eqdkpplus.github.io/packages/portal/portal-dazarporgress-1.0.2_1.zip) | 1.0.2 | Requires EQdkp Plus 2.2.0 | 11-02-2019 | 
+| [WOW Eternal Palace Progress](https://eqdkpplus.github.io/packages/portal/portal-eternalpalaceprogress-1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.2.0 | 21-06-2019 | 
+| [WoW Ny&#39;alotha Progress](https://eqdkpplus.github.io/packages/portal/nyalothaprogress_1.0.0_1.zip) | 1.0.0 | Requires EQdkp Plus 2.2.0 | 13-01-2020 | 
+| [WoW Progress](https://eqdkpplus.github.io/packages/portal/wowprogress_0.4.3_2c50e56.zip) | 0.4.3 | Requires EQdkp Plus 2.0.0 | 10-08-2018 | 
 
 ## Languages
 
