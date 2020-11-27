@@ -3,9 +3,11 @@
 
 ## Core
 The latest version can be downloaded here: [Core Download](/packages/core/fullpackage.zip)
+The source code of the Core is available [here](https://github.com/EQdkpPlus/core).
 
 ## Extensions
 The latest version of the extensions can be downloaded here: [Extension Download](/packages/extensions/index.html)
+The source code is available in the repositories at the [GitHub Organisation](https://github.com/EQdkpPlus).
 
 ## Help
 You can find helpful articles at the [EQdkp Plus Wiki Dump](https://eqdkpplus.github.io/wiki/wiki/index.html).
