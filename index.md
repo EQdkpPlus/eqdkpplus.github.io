@@ -1,6 +1,6 @@
->__The development and maintenance of EQdkp Plus was stopped after being 15 years the Gamer CMS & DKP System. Therefore, we have archived everything helpful here at GitHub.__
+>The development and maintenance of EQdkp Plus was stopped after being 15 years the Gamer CMS & DKP System. Therefore, we have archived everything helpful here at GitHub.
 >
->__Thanks for your journey with EQdkp Plus!__
+>Thanks for your journey with EQdkp Plus!
 
 ## Core
 The latest release of EQdkp Plus can be downloaded here: [Core Download](/packages/core/fullpackage.zip)
