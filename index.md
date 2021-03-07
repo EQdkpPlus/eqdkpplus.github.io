@@ -5,7 +5,7 @@
 ## Core
 The latest release of EQdkp Plus can be downloaded here: [Core Download](/packages/core/fullpackage.zip)
 
-[Installation Guide](https://eqdkpplus.github.io/wiki/wiki/Installation.html) • [Requierements](requirements) • [Features](features) • [Source Code](https://github.com/EQdkpPlus/core)
+[Installation Guide](https://eqdkpplus.github.io/wiki/wiki/Installation.html) • [Requirements](requirements) • [Features](features) • [Source Code](https://github.com/EQdkpPlus/core)
 
 ## Extensions
 The latest releases of EQdkp Plus extensions can be downloaded here: [Extension Download](/packages/extensions/index.html)
@@ -27,7 +27,7 @@ You will find EQdkp Plus core, the extensions and other helpful data in the [Git
 If you find EQdkp Plus still useful, you can buy us a beer using [PayPal](https://paypal.me/EQdkpPlus).
 
 ## License
-Copyright (C) 2006-2020 EQdkp-Plus Developer Team
+Copyright (C) 2006-2021 EQdkp-Plus Developer Team
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
