@@ -3,7 +3,7 @@
 >Thanks for your journey with EQdkp Plus!
 
 ## Core
-The latest release of EQdkp Plus can be downloaded here: [Core Download](/packages/core/fullpackage.zip)
+The latest release of EQdkp Plus can be downloaded here: [Core Download](/packages/core/eqdkp-plus_2.3.39_fullpackage.zip)
 
 [Installation Guide](https://eqdkpplus.github.io/wiki/wiki/Installation.html) • [Requirements](requirements) • [Features](features) • [Source Code](https://github.com/EQdkpPlus/core)
 
