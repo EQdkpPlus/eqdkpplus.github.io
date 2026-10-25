@@ -1,10 +1,18 @@
-> [!CAUTION]
-> **⚠️ This project is no longer maintained.**
->
-> This software is no longer actively developed or supported. **Do not install or use this software in production environments.**
->
-> No further updates, bug fixes, or security patches will be provided. Use of this software is at your own risk.
+<div style="border: 2px solid #c62828; background: #ffebee;
+            color: #b71c1c; padding: 16px; margin-bottom: 24px;
+            border-radius: 6px;">
 
+  <h2>⚠️ NOTICE: PROJECT NO LONGER MAINTAINED</h2>
+
+  <p><strong>Do not install or use this software in production.</strong></p>
+
+  <p>
+    This project is no longer maintained. No further updates,
+    bug fixes, or security patches will be provided.
+  </p>
+
+  <p>Please use an actively maintained alternative.</p>
+</div>
 
 >The development and maintenance of EQdkp Plus has ended after being 15 years the Gamer CMS & DKP System. Therefore, we have archived everything helpful here at GitHub.
 >
