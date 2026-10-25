@@ -10,8 +10,6 @@
     This project is no longer maintained. No further updates,
     bug fixes, or security patches will be provided.
   </p>
-
-  <p>Please use an actively maintained alternative.</p>
 </div>
 
 >The development and maintenance of EQdkp Plus has ended after being 15 years the Gamer CMS & DKP System. Therefore, we have archived everything helpful here at GitHub.
